@@ -1,3 +1,17 @@
+""" Turns PDFs into CSV files
+
+Start:
+    2006 Elk Harvest, Hunters and Recreation Days for All Rifle Seasons 
+     Total Total Percent Total 
+Unit  Bulls Cows Calves Harvest Hunters Success Rec. Days 
+ 69 22 31 0 53 251 21 1,041
+ ... 
+ 691 0 9 2 11 81 14 295 
+
+Finish:
+    
+
+"""
 import os
 import glob
 import pandas as pd
@@ -70,6 +84,14 @@ def parse_pdf_archery_data(pdf_reader) -> pd.DataFrame:
     different numbers that are the values for 8 different columns. If a row
     is parsed and does not have 8 different numbers then it is not the data
     we are looking for.
+
+    Sample Page:
+        2006 Elk Harvest, Hunters and Recreation Days for All Rifle Seasons 
+        Total Total Percent Total 
+    Unit  Bulls Cows Calves Harvest Hunters Success Rec. Days 
+    69 22 31 0 53 251 21 1,041
+    ... 
+    691 0 9 2 11 81 14 295 
 
     :param pdf: a pdf of the hunting data from CPW
 
