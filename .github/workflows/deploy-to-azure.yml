@@ -7,7 +7,7 @@ jobs:
         env:
             APP_NAME: elkharvest
         steps:
-        # checkout the repo
+
         - name: 'Checkout GitHub Action'
           uses: actions/checkout@main
           
@@ -25,3 +25,13 @@ jobs:
         - run: |
             docker build . -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ env.APP_NAME }}:${{ github.sha }}
             docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ env.APP_NAME }}:${{ github.sha }}
+
+        - uses: azure/webapps-deploy@v2
+          with:
+            app-name: 'elk-archery-harvest'
+            images: ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ env.APP_NAME }}:${{ github.sha }}
+          
+        - name: Azure logout
+          run: |
+            az logout
+    
