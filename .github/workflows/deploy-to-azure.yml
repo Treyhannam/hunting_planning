@@ -1,39 +1,27 @@
-name: Deploy to Azure App Service
-
-on:
-  push:
-    branches:
-      - main
+on: [push]
+name: Linux_Container_Workflow
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
-
-    - name: Log in to Azure
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
-
-    - name: Log in to ACR
-      run: |
-        az acr login --name ${{ secrets.ACR_NAME }}
-
-    - name: Build and Push Docker Image
-      run: |
-        IMAGE_NAME=${{ secrets.ACR_NAME }}.azurecr.io/your-app:latest
-        docker build -t $IMAGE_NAME .
-        docker push $IMAGE_NAME
-
-    - name: Deploy to Azure Web App
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: <YOUR_APP_NAME>
-        slot-name: production
-        azure-credentials: ${{ secrets.AZURE_CREDENTIALS }}
-        images: |
-          ${{ secrets.ACR_NAME }}.azurecr.io/your-app:latest
-# 2b0d19d8-2e70-44f4-b45e-e252365ea5f4
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        env:
+            APP_NAME: elkharvest
+        steps:
+        # checkout the repo
+        - name: 'Checkout GitHub Action'
+          uses: actions/checkout@main
+          
+        - name: 'Login via Azure CLI'
+          uses: azure/login@v1
+          with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
+        
+        - name: 'Build and push image'
+          uses: azure/docker-login@v1
+          with:
+            login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+            username: ${{ secrets.REGISTRY_USERNAME }}
+            password: ${{ secrets.REGISTRY_PASSWORD }}
+        - run: |
+            docker build . -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ env.APP_NAME }}:${{ github.sha }}
+            docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/${{ env.APP_NAME }}:${{ github.sha }}
