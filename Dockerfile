@@ -12,6 +12,8 @@ COPY ./src /app/src
 
 COPY ./data /app/data
 
+COPY ./resources /app/resources
+
 EXPOSE 8501
 
-ENTRYPOINT ["streamlit", "run", "src/1_Overview.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "src/nav.py", "--server.port=8501", "--server.address=0.0.0.0"]

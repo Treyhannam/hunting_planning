@@ -1,6 +1,6 @@
 import streamlit as st
-from st_helpers import get_geo_data, get_hunting_data, st_sidebar
-from graphing import plot_annual_data
+from utils.st_helpers import get_geo_data, get_hunting_data, st_sidebar
+from utils.plotly_graphs import plot_annual_data
 
 st.set_page_config(layout="wide")
 

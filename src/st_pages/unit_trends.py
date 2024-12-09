@@ -2,8 +2,8 @@ import streamlit as st
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
-from st_helpers import get_hunting_data, st_sidebar
-from graphing import plot_metrics
+from utils.st_helpers import get_hunting_data, st_sidebar
+from utils.plotly_graphs import plot_metrics
 
 st.set_page_config(layout="wide")
 

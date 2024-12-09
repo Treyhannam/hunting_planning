@@ -4,19 +4,12 @@ import streamlit as st
 import os
 from pathlib import Path
 
-# class stateManager:
-#     def __init__():
-#         st.session_state.map_zoom = 7
-#         st.session_state.map_layout = {
-#             'coloraxis_showscale': True,
-#         }
-
 
 @st.cache_data
 def get_geo_data():
     file_directory = Path(__file__).parent
 
-    data_directory = file_directory.parent / 'data' 
+    data_directory = file_directory.parent.parent / 'data' 
 
     gdf = gpd.read_file(
         os.path.join(
@@ -43,7 +36,7 @@ def get_geo_data():
 def get_hunting_data():
     file_directory = Path(__file__).parent
 
-    data_directory = file_directory.parent / 'data' 
+    data_directory = file_directory.parent.parent / 'data' 
 
     df = pd.read_csv(
         os.path.join(
