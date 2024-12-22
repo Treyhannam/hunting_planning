@@ -19,5 +19,3 @@ COPY src/ ./src
 EXPOSE 8501
 
 ENTRYPOINT ["streamlit", "run", "src/app/main.py", "--server.port=8501", "--server.address=0.0.0.0"]
-
-# CMD ["ls", "-l", "/hunting_planning/src/app/st_pages"]

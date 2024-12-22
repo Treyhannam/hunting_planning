@@ -76,8 +76,8 @@ with st.form(key='submission', clear_on_submit=True):
     submitted = st.form_submit_button()
 
     if not feedback and submitted:
-        st.write('Please provide feedback before submitting.')
+        st.warning('Please provide feedback before submitting.', icon="⚠️")
     if submitted and feedback:
         logger.info(f'email={email}, feedback={feedback}')
-        st.write('Thank you!')
+        st.success('Feedback submitted, thank you!', icon="✅")
 

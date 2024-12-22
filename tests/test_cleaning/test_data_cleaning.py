@@ -1,6 +1,7 @@
 import pytest
+from pathlib import Path
 from unittest.mock import MagicMock, patch
-from app.data_cleaning.parsing import parse_rows, extract_archery_data
+from app.cleaning.parsing import parse_rows, extract_archery_data
 
 def test_parse_rows():
     gmu_pdf_row_list = [
@@ -17,7 +18,8 @@ def test_parse_rows():
 
 
 def test_extract_archery_data():
-    with open("tests\\text_file\\archery_mid_page.txt", "r") as file:
+    archery_mid_page_path = Path(__file__).parent.parent / 'helpers' / "archery_mid_page.txt"
+    with archery_mid_page_path.open("r") as file:
         archery_mid_page = file.read()
 
     mock_page = MagicMock()

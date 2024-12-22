@@ -8,8 +8,6 @@ if "pages_directory" not in st.session_state.keys():
 
     st.session_state.pages_directory = app_directory / 'st_pages'
 
-# st.write(st.session_state.pages_directory)
-
 pages = {
     "More Information": [
         st.Page(
