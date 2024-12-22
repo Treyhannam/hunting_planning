@@ -1,6 +1,6 @@
 import pytest
 from unittest.mock import MagicMock, patch
-from src.data_parsing import parse_rows, extract_archery_data
+from app.data_cleaning.parsing import parse_rows, extract_archery_data
 
 def test_parse_rows():
     gmu_pdf_row_list = [

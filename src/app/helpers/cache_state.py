@@ -9,11 +9,11 @@ from pathlib import Path
 def get_geo_data():
     file_directory = Path(__file__).parent
 
-    data_directory = file_directory.parent.parent / 'data' 
+    asset_directory = file_directory.parent / 'assets' / 'data'
 
     gdf = gpd.read_file(
         os.path.join(
-            data_directory, 'cpw_gmu.geojson'
+            asset_directory, 'cpw_gmu.geojson'
         )
     )
 
@@ -36,11 +36,11 @@ def get_geo_data():
 def get_hunting_data():
     file_directory = Path(__file__).parent
 
-    data_directory = file_directory.parent.parent / 'data' 
+    asset_directory = file_directory.parent / 'assets' / 'data'
 
     df = pd.read_csv(
         os.path.join(
-            data_directory, 'hunting_data.csv'
+            asset_directory, 'hunting_data.csv'
         )
     )
     
@@ -52,10 +52,17 @@ def get_hunting_data():
 
 
 def st_sidebar():
+    if 'is_mobile' not in st.session_state.keys():
+        st.session_state.is_mobile=True
+
     with st.sidebar:
-        status = st.toggle('Are you on a mobile device?')
+        status = st.toggle(
+            'Are you on a mobile device?',
+            value=st.session_state.is_mobile
+            )
         st.write('This will change the format of the website for easier viewing.')
-        st.info(f'Current Selection: {status}', icon="ℹ️")
+
+        st.session_state.is_mobile = status
 
     if status:
         st.session_state.map_zoom = 5

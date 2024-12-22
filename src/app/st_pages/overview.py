@@ -1,25 +1,20 @@
 import streamlit as st
 import logging
 import sys
-from utils.st_helpers import st_sidebar
 import os
 from pathlib import Path
 
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s [%(filename)s] [%(funcName)20s()] [%(levelname)s] - %(message)s",
+    format="r%(asctime)s [%(filename)s] [%(funcName)20s()] [%(levelname)s] - %(message)s",
     stream=sys.stdout,
 )
 
 logger = logging.getLogger(__name__)
 
-src_directory = Path(__file__).parent.parent
+pages_directory = Path(__file__)
 
-resource_directory = src_directory.parent / 'resources'
-
-st.set_page_config(layout="wide")
-
-st_sidebar()
+screenshot_directory = pages_directory.parent.parent / 'assets' / 'screenshots'
 
 st.markdown(
 """
@@ -39,7 +34,7 @@ Note, there may be incorrect data displayed, the PDF files were turned into CSV 
 - Cows: Number of cows harvested.
 - Calves: Number of calves harvested.
 - Total Harvest: Number of bulls, calves, and cows harvested.
-- Total Rec Days: Number of days all hunters were present.
+- Total Rec Days: Number of days hunters were present.
 
 #### Future additions may be made depending on data availability. Such additions could be...
 - Harvest by all other manners of take (Muzzle laoder, rifle)
@@ -65,11 +60,11 @@ The graphs and map need additional adjustments depending on the device you are u
 """
 )
 
-st.image(os.path.join(resource_directory, 'Opening_sidebar.png'))
+st.image(os.path.join(screenshot_directory, 'Opening_sidebar.png'))
 
 st.markdown("##### 2. Toggle if you are using a mobile device or not")
 
-st.image(os.path.join(resource_directory, 'Mobile_device.png'))
+st.image(os.path.join(screenshot_directory, 'Mobile_device.png'))
 
 st.markdown("## Submit Feedback")
 

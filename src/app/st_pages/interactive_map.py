@@ -1,12 +1,8 @@
 import streamlit as st
-from utils.st_helpers import get_geo_data, get_hunting_data, st_sidebar
-from utils.plotly_graphs import plot_annual_data
-
-st.set_page_config(layout="wide")
+from app.helpers.cache_state import get_geo_data, get_hunting_data
+from app.helpers.graphs import plot_annual_data
 
 st.title("Elk Archery Percent Success and Number of Hunters")
-
-st_sidebar()
 
 gdf = get_geo_data()
 

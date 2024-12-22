@@ -2,12 +2,8 @@ import streamlit as st
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
-from utils.st_helpers import get_hunting_data, st_sidebar
-from utils.plotly_graphs import plot_metrics
-
-st.set_page_config(layout="wide")
-
-st_sidebar()
+from app.helpers.cache_state import get_hunting_data
+from app.helpers.graphs import plot_metrics
 
 hunter_df = get_hunting_data()
 

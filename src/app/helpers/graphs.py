@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+
 def plot_annual_data(geo_df: pd.DataFrame, hunting_df: pd.DataFrame, color_col: str, opacity: float):
     """
     """

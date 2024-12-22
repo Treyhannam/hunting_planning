@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elk_archery_harvest"
+version = "0.0.1"
+authors = [
+  { name="Trey Hannam"},
+]
+description = "Streamlit app to display Colorado Parks and Wildlife (CPW) data."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+  'pandas==2.2.3',
+  'plotly==5.24.1',
+  'PyPDF2==3.0.1',
+  'pytest==8.3.0',
+  'geopandas==1.0.1',
+  'pytest==8.3',
+  'streamlit==1.40.2'
+]
+
+[tool.pytest.ini_options]
+pythonpath = "src/"
+
+[project.urls]
+Homepage = "https://github.com/Treyhannam/hunting_planning"
