@@ -73,6 +73,10 @@ def st_sidebar():
     - trend_start_year (int): Starting year for trend data.
     - trend_update_layout (dict): Layout settings for trend display.
     """
+    if "pages_directory" not in st.session_state.keys():
+        app_directory = Path(__file__).parent.parent
+
+        st.session_state.pages_directory = app_directory / "st_pages"
 
     if "is_mobile" not in st.session_state.keys():
         st.session_state.is_mobile = True

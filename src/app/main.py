@@ -5,14 +5,12 @@ helpers:
     caches datasets for app to use
     creates session variables for user inputs
 """
-from pathlib import Path
 import streamlit as st
 from app.helpers.cache_state import st_sidebar, get_geo_data, get_hunting_data
 
-if "pages_directory" not in st.session_state.keys():
-    app_directory = Path(__file__).parent
+st.set_page_config(layout="wide")
 
-    st.session_state.pages_directory = app_directory / "st_pages"
+st_sidebar()
 
 pages = {
     "More Information": [
@@ -31,10 +29,6 @@ pages = {
         ),
     ],
 }
-
-st.set_page_config(layout="wide")
-
-st_sidebar()
 
 get_geo_data()
 
