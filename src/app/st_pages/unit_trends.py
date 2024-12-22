@@ -1,7 +1,4 @@
 import streamlit as st
-import geopandas as gpd
-import pandas as pd
-import plotly.express as px
 from app.helpers.cache_state import get_hunting_data
 from app.helpers.graphs import plot_metrics
 
@@ -13,7 +10,7 @@ unit = st.selectbox(
 )
 
 year_range = st.slider(
-    label=f"Select Year(s)",
+    label="Select Year(s)",
     min_value=hunter_df["Year"].min(),
     max_value=hunter_df["Year"].max(),
     value=(hunter_df["Year"].min(), hunter_df["Year"].max()),

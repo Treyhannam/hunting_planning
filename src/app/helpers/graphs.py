@@ -1,12 +1,22 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+import plotly
 
 
 def plot_annual_data(
     geo_df: pd.DataFrame, hunting_df: pd.DataFrame, color_col: str, opacity: float
-):
-    """ """
+) -> plotly.graph_objs._figure.Figure:
+    """
+    Plots annual hunting data on a choropleth map using Plotly.
+
+    :param geo_df: geographical data.
+    :param hunting_df: hunting data.
+    :param color_col: Column name to determine the color of the map.
+    :param opacity: Opacity level for the map.
+
+    :return: map plotting hunting stats on a map.
+    """
     combined_df = geo_df.merge(
         hunting_df, left_on=["GMU"], right_on=["Unit"], how="left"
     )
@@ -48,8 +58,18 @@ def plot_metrics(
     unit: list[int],
     title: str,
     year_range: list[int],
-):
-    """ """
+) -> plotly.graph_objs._figure.Figure:
+    """
+    Plots the specified metrics for hunters over a given range of years.
+    Parameters:
+    :param hunter_df: hunting data.
+    :param metrics: metrics to plot (e.g., ['Bulls', 'Cows', 'Calves']).
+    :param unit: unit numbers to filter the data by. Use "All" to include all units.
+    :param title: Title of the plot.
+    :param year_range: start and end year for the plot (e.g., [2010, 2020]).
+
+    :return: plotted metrics.
+    """
     hunter_df = hunter_df.loc[
         (hunter_df.Year >= year_range[0]) & (hunter_df.Year <= year_range[1])
     ]

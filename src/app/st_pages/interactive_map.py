@@ -11,12 +11,12 @@ hunter_df = get_hunting_data()
 with st.expander("How this Works"):
     st.write(
         """
-            The map below is each of Colorado's Game management Unit (GMU) plotted. For a given unit CPW collects
-        metrics related to hunting such as number of hunters present, elk harvested, etc. You can select a metric
-        and it will be plotted on the map. The darker a GMU the more of a given metric. Example if you select 
-        the metric "Total Hunters", units with the darkest color had the most hunters for a given year.
+        The map below is each of Colorado's Game management Unit (GMU) plotted. For a given unit CPW collects
+    metrics related to hunting such as number of hunters present, elk harvested, etc. You can select a metric
+    and it will be plotted on the map. The darker a GMU the more of a given metric. Example if you select 
+    the metric "Total Hunters", units with the darkest color had the most hunters for a given year.
 
-        If a GMU is not plotted then there is no data available for the metric and filters selection.
+    If a GMU is not plotted then there is no data available for the metric and filters selection.
     """
     )
 

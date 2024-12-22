@@ -1,12 +1,20 @@
+"""
+Functions to cache and retrieve geospatial and hunting data,
+as well as configure the Streamlit sidebar for multi page use.
+"""
+import os
+from pathlib import Path
 import pandas as pd
 import geopandas as gpd
 import streamlit as st
-import os
-from pathlib import Path
 
 
 @st.cache_data
-def get_geo_data():
+def get_geo_data() -> gpd.GeoDataFrame:
+    """loads geographic data from a GeoJSON file.
+
+    :returns: df for plotting on a map
+    """
     file_directory = Path(__file__).parent
 
     asset_directory = file_directory.parent / "assets" / "data"
@@ -27,7 +35,11 @@ def get_geo_data():
 
 
 @st.cache_data
-def get_hunting_data():
+def get_hunting_data() -> pd.DataFrame:
+    """loads hunting data from a csv file.
+
+    :returns: df for plotting on a hunting stats
+    """
     file_directory = Path(__file__).parent
 
     asset_directory = file_directory.parent / "assets" / "data"
@@ -44,6 +56,24 @@ def get_hunting_data():
 
 
 def st_sidebar():
+    """
+    Configures the sidebar in a Streamlit application to toggle between mobile
+    and desktop views. This function checks if the 'is_mobile' key exists in
+    the Streamlit session state. If not, it initializes it to True. It then
+    creates a toggle button in the sidebar to allow the user to specify if they
+    are on a mobile device. Depending on the user's choice, it adjusts various
+    session state parameters to optimize the layout and appearance of the
+    application for mobile or desktop viewing.
+
+    Session State Variables:
+    - is_mobile (bool): Indicates if the user is on a mobile device.
+    - map_zoom (int): Zoom level for the map display.
+    - map_layout (dict): Layout settings for the map display.
+    - trend_font (int): Font size for trend display.
+    - trend_start_year (int): Starting year for trend data.
+    - trend_update_layout (dict): Layout settings for trend display.
+    """
+
     if "is_mobile" not in st.session_state.keys():
         st.session_state.is_mobile = True
 

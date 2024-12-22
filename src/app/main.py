@@ -1,4 +1,10 @@
-import os
+"""
+Entry point for the app.
+
+helpers:
+    caches datasets for app to use
+    creates session variables for user inputs
+"""
 from pathlib import Path
 import streamlit as st
 from app.helpers.cache_state import st_sidebar, get_geo_data, get_hunting_data

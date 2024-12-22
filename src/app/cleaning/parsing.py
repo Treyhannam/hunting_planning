@@ -13,12 +13,12 @@ Finish:
 
 """
 import os
+import sys
 import glob
+import logging
 import pandas as pd
 import PyPDF2
 from pathlib import Path
-import logging
-import sys
 
 logging.basicConfig(
     level=logging.INFO,
@@ -30,9 +30,9 @@ logger = logging.getLogger(__name__)
 
 
 def parse_rows(pdf_page_data: list) -> list[list[str]]:
-    """Each PDF page has the data sperated by new lines. Once a page is split by new lines ('\n') then
-    We can iterate through each row to see if it contains data about a GMU. This follows a pattern of having
-    eight integer elements.
+    """Each PDF page has the data sperated by new lines. Once a page is split by
+    new lines ('\n') then iterate through each row to see if it contains data about
+    a GMU. This follows a pattern of having eight integer elements.
 
     Example:
     >>> pdf_page_data = ['1, 2, 3, 4, 5, 6, 7, 8']
@@ -50,7 +50,7 @@ def parse_rows(pdf_page_data: list) -> list[list[str]]:
 
         no_empty_elt = [elt for elt in split_row if len(elt) > 0]
 
-        list_of_numbers = all([elt.isdigit() for elt in no_empty_elt])
+        list_of_numbers = all(elt.isdigit() for elt in no_empty_elt)
 
         number_of_elt = len(no_empty_elt)
 
@@ -128,7 +128,7 @@ def pdf_to_csv():
 
     all_data = []
     for pdf_file in pdf_files:
-        logger.info(f"Processing {pdf_file}")
+        logger.info("Processing file %s: ", pdf_file)
 
         reader = PyPDF2.PdfReader(pdf_file)
 
@@ -140,7 +140,7 @@ def pdf_to_csv():
 
         all_data.append(df)
 
-        logger.info(f"Number of GMUs found {len(df)}")
+        logger.info("Number of GMUs found %s: ", len(df))
 
     pd.concat(all_data).to_csv("data//hunting_data.csv", index=False)
 

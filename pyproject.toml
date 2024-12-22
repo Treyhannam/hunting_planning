@@ -26,6 +26,7 @@ dependencies=[
 
 [project.optional-dependencies]
 dev = [
+  'pylint==3.3.2',
   'pytest==8.3.0',
   'pre_commit==4.0.1',
   'black==24.10.0'
@@ -36,3 +37,6 @@ pythonpath = "src/"
 
 [project.urls]
 Homepage = "https://github.com/Treyhannam/hunting_planning"
+
+[tool.pylint]
+disable = ["C0301", "C0115", "C0116"]

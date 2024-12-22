@@ -1,8 +1,8 @@
-import streamlit as st
-import logging
-import sys
 import os
+import sys
+import logging
 from pathlib import Path
+import streamlit as st
 
 logging.basicConfig(
     level=logging.INFO,
@@ -78,5 +78,5 @@ with st.form(key="submission", clear_on_submit=True):
     if not feedback and submitted:
         st.warning("Please provide feedback before submitting.", icon="⚠️")
     if submitted and feedback:
-        logger.info(f"email={email}, feedback={feedback}")
+        logger.info("email=%s, feedback=%s", email, feedback)
         st.success("Feedback submitted, thank you!", icon="✅")
