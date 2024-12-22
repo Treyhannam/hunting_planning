@@ -14,10 +14,10 @@ logger = logging.getLogger(__name__)
 
 pages_directory = Path(__file__)
 
-screenshot_directory = pages_directory.parent.parent / 'assets' / 'screenshots'
+screenshot_directory = pages_directory.parent.parent / "assets" / "screenshots"
 
 st.markdown(
-"""
+    """
 # Elk Archery Harvest Report Overview
 
 This project aims to display archery Harvest data from Colorado Parks and Wildlife (CPW) in an easy to understand way. I find interactive graphs more productive than reading through PDFs.
@@ -60,24 +60,23 @@ The graphs and map need additional adjustments depending on the device you are u
 """
 )
 
-st.image(os.path.join(screenshot_directory, 'Opening_sidebar.png'))
+st.image(os.path.join(screenshot_directory, "Opening_sidebar.png"))
 
 st.markdown("##### 2. Toggle if you are using a mobile device or not")
 
-st.image(os.path.join(screenshot_directory, 'Mobile_device.png'))
+st.image(os.path.join(screenshot_directory, "Mobile_device.png"))
 
 st.markdown("## Submit Feedback")
 
-with st.form(key='submission', clear_on_submit=True):
-    email = st.text_input('Email (Optional)', key='email')
+with st.form(key="submission", clear_on_submit=True):
+    email = st.text_input("Email (Optional)", key="email")
 
-    feedback = st.text_input('Feedback', key='feedback')
+    feedback = st.text_input("Feedback", key="feedback")
 
     submitted = st.form_submit_button()
 
     if not feedback and submitted:
-        st.warning('Please provide feedback before submitting.', icon="⚠️")
+        st.warning("Please provide feedback before submitting.", icon="⚠️")
     if submitted and feedback:
-        logger.info(f'email={email}, feedback={feedback}')
-        st.success('Feedback submitted, thank you!', icon="✅")
-
+        logger.info(f"email={email}, feedback={feedback}")
+        st.success("Feedback submitted, thank you!", icon="✅")
