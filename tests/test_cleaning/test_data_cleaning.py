@@ -1,7 +1,7 @@
 import pytest
 from pathlib import Path
 from unittest.mock import MagicMock, patch
-from app.cleaning.parsing import parse_rows, extract_archery_data
+from app.cleaning.harvest import parse_rows, extract_archery_data
 
 
 def test_parse_rows():
