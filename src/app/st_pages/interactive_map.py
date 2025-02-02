@@ -8,7 +8,7 @@ gdf = get_geo_data()
 
 hunter_df = get_hunting_data()
 
-with st.expander("How this Works"):
+with st.expander("More information about the map"):
     st.write(
         """
         The map below is each of Colorado's Game management Unit (GMU) plotted. For a given unit CPW collects
@@ -42,6 +42,21 @@ with st.container():
         key="maplot_year_selectbox",
     )
 
+    otc_options = [
+        "Private Either Sex",
+        "Private Female",
+        "Public Either Sex",
+        "Public Female",
+        "No Over the Counter",
+    ]
+
+    otc = col1.multiselect(
+        "Choose to Display type of OTC Units or non OTC Units",
+        options=otc_options,
+        default=otc_options,
+        placeholder="Choosing none is the same as choosing all",
+    )
+
     opacity_str = col2.selectbox(
         label="Choose Plot Opacity", options=("25%", "50%", "75%", "100%"), index=3
     )
@@ -59,6 +74,13 @@ with st.container():
         (hunter_df.Year == year)
         & (hunter_df[metric] >= metric_range[0])
         & (hunter_df[metric] <= metric_range[1])
+        & (
+            (hunter_df["Private Either Sex"] == ("Private Either Sex" in otc))
+            & (hunter_df["Private Female"] == ("Private Female" in otc))
+            & (hunter_df["Public Either Sex"] == ("Public Either Sex" in otc))
+            & (hunter_df["Public Female"] == ("Public Female" in otc))
+            | (hunter_df["No Over The Counter"] == ("No Over The Counter" in otc))
+        )
     ].copy()
 
     st.session_state.fig = plot_annual_data(
