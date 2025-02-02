@@ -1,0 +1,992 @@
+hunt_code,list_code,adult_res_draw_at,adult_nonrest_draw_at,youth_res_draw_at,youth_nonrest_draw_at,landowner_unrestr_draw_at,landowner_restr_draw_at,final_adult_res_draw_at,final_adult_nonrest_draw_at,final_youth_res_draw_at,final_youth_nonrest_draw_at,final_landowner_unrestr_draw_at,final_landowner_restr_draw_at,animal_sex,gmu,method_of_take
+EE001E1R,A,19,30,ND,ND,4,2,1/3,1/1,N/A,N/A,1/2,1/3,Either Sex,001,rifle
+EE001O1A,A,17,ND,ND,ND,ND,ND,1/2,N/A,N/A,N/A,N/A,N/A,Either Sex,001,Archery
+EE002E1R,A,26,31,ND,ND,9,5,7/30,1/19,N/A,N/A,3/3,1/2,Either Sex,002,rifle
+EE002O1A,A,24,30,ND,ND,7,5,5/6,1/5,N/A,N/A,1/1,1/1,Either Sex,002,Archery
+EE003O1M,A,1,1,1,0,N/A,N/A,3/3,1/1,3/3,1/1,N/A,N/A,Either Sex,003,muzzleloader
+EE003P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,003,rifle
+EE003W1R,A,10,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,003,rifle
+EE003W3R,A,2,no-apps,1,no-apps,N/A,N/A,2/4,N/A,1/3,N/A,N/A,N/A,Either Sex,003,rifle
+EE004O1A,A,1,4,1,ND,N/A,N/A,115/210,46/62,4/9,N/A,N/A,N/A,Either Sex,004,Archery
+EE004O1M,A,2,7,2,ND,N/A,N/A,20/50,5/8,2/2,N/A,N/A,N/A,Either Sex,004,muzzleloader
+EE004P1M,A,Choice-2,0,ND,no-apps,N/A,N/A,5/12,24/24,N/A,N/A,N/A,N/A,Either Sex,004,muzzleloader
+EE004W1R,A,10,no-apps,ND,no-apps,N/A,N/A,1/6,N/A,N/A,N/A,N/A,N/A,Either Sex,004,rifle
+EE004W2R,A,4,no-apps,ND,no-apps,N/A,N/A,6/6,N/A,N/A,N/A,N/A,N/A,Either Sex,004,rifle
+EE004W3R,A,5,no-apps,6,no-apps,N/A,N/A,1/4,N/A,1/1,N/A,N/A,N/A,Either Sex,004,rifle
+EE005W1R,A,14,no-apps,ND,no-apps,N/A,N/A,5/5,N/A,N/A,N/A,N/A,N/A,Either Sex,005,rifle
+EE005W2R,A,4,no-apps,ND,no-apps,N/A,N/A,2/2,N/A,N/A,N/A,N/A,N/A,Either Sex,005,rifle
+EE006O1M,A,0,0,0,0,N/A,N/A,179/179,29/60,10/10,2/4,N/A,N/A,Either Sex,006,muzzleloader
+EE006O1R,A,0,0,0,1,N/A,N/A,369/415,76/189,33/37,2/2,N/A,N/A,Either Sex,006,rifle
+EE006O4R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,27/48,1/1,6/8,2/2,N/A,N/A,Either Sex,006,rifle
+EE006P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,006,rifle
+EE006W1R,A,14,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,006,rifle
+EE007O1A,A,0,0,0,0,Leftover-Choice-3,ND,369/727,117/200,43/66,4/4,6/6,N/A,Either Sex,007,Archery
+EE010E1R,A,25,31,ND,ND,8,7,10/17,3/15,N/A,N/A,1/4,3/7,Either Sex,010,rifle
+EE010O1A,A,22,30,ND,ND,7,4,1/7,2/5,N/A,N/A,1/1,1/1,Either Sex,010,Archery
+EE010W1R,A,30,no-apps,ND,no-apps,N/A,N/A,1/5,N/A,N/A,N/A,N/A,N/A,Either Sex,010,rifle
+EE011O1M,A,0,0,0,ND,N/A,N/A,38/38,12/21,1/1,N/A,N/A,N/A,Either Sex,011,muzzleloader
+EE011P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,011,rifle
+EE011W1R,A,20,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,011,rifle
+EE011W2R,A,12,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,011,rifle
+EE011W4R,A,4,no-apps,5,no-apps,N/A,N/A,1/4,N/A,1/1,N/A,N/A,N/A,Either Sex,011,rifle
+EE012O1A,A,0,3,0,4,N/A,N/A,195/254,42/115,5/7,2/2,N/A,N/A,Either Sex,012,Archery
+EE012O1M,A,0,5,1,ND,N/A,N/A,9/34,1/8,1/1,N/A,N/A,N/A,Either Sex,012,muzzleloader
+EE012P1M,A,Choice-2,Choice-3,ND,0,N/A,N/A,3/8,1/3,N/A,2/2,N/A,N/A,Either Sex,012,muzzleloader
+EE014O1M,A,0,2,0,2,N/A,N/A,37/40,11/22,7/7,1/2,N/A,N/A,Either Sex,014,muzzleloader
+EE015O1M,A,0,0,0,0,N/A,N/A,115/119,95/142,9/9,2/2,N/A,N/A,Either Sex,015,muzzleloader
+EE015O1R,A,0,0,0,0,N/A,N/A,150/152,51/104,5/6,1/4,N/A,N/A,Either Sex,015,rifle
+EE015O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,015,rifle
+EE015P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,015,rifle
+EE015P2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,015,rifle
+EE015P3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,015,rifle
+EE015P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,015,rifle
+EE016O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,016,rifle
+EE017O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,017,rifle
+EE018O1M,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,75/137,64/126,3/4,2/2,N/A,N/A,Either Sex,018,muzzleloader
+EE018O1R,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,180/389,49/167,21/41,3/7,N/A,N/A,Either Sex,018,rifle
+EE018O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,018,rifle
+EE018P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,018,rifle
+EE018P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,018,rifle
+EE020O1A,A,3,5,3,ND,Choice-3,Leftover-Choice-2,36/40,8/12,1/1,N/A,1/3,2/5,Either Sex,020,Archery
+EE021O1M,A,0,3,0,3,N/A,N/A,62/77,23/35,9/12,1/1,N/A,N/A,Either Sex,021,muzzleloader
+EE021P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,021,rifle
+EE023W1R,A,23,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,023,rifle
+EE025O1M,A,0,1,0,2,N/A,N/A,67/67,1/25,4/4,1/2,N/A,N/A,Either Sex,025,muzzleloader
+EE025W1R,A,11,no-apps,ND,no-apps,N/A,N/A,2/2,N/A,N/A,N/A,N/A,N/A,Either Sex,025,rifle
+EE027O1R,A,0,0,0,no-apps,N/A,N/A,26/37,12/13,3/6,N/A,N/A,N/A,Either Sex,027,rifle
+EE027O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,027,rifle
+EE027P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,027,rifle
+EE027P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,027,rifle
+EE028O1M,A,Choice-2,Choice-2,0,0,N/A,N/A,50/149,16/55,5/5,3/3,N/A,N/A,Either Sex,028,muzzleloader
+EE028O1R,A,0,0,0,0,N/A,N/A,177/219,48/63,26/32,1/1,N/A,N/A,Either Sex,028,rifle
+EE028O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,028,rifle
+EE028P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,028,rifle
+EE028P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,028,rifle
+EE029O1A,A,3,4,ND,no-apps,0,Leftover-Choice-1,7/16,1/1,N/A,N/A,3/5,1/2,Either Sex,029,Archery
+EE033O1A,A,0,2,0,2,N/A,N/A,397/403,155/241,24/24,3/3,N/A,N/A,Either Sex,033,Archery
+EE033O1M,A,1,5,1,ND,N/A,N/A,33/62,1/14,4/6,N/A,N/A,N/A,Either Sex,033,muzzleloader
+EE033P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,033,rifle
+EE035O1R,A,0,1,0,1,N/A,N/A,52/105,24/31,7/15,2/2,N/A,N/A,Either Sex,035,rifle
+EE035O4R,A,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,12/28,1/3,6/6,N/A,N/A,N/A,Either Sex,035,rifle
+EE035P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,035,rifle
+EE036O4R,A,Choice-2,0,0,no-apps,N/A,N/A,4/29,7/7,4/4,N/A,N/A,N/A,Either Sex,036,rifle
+EE039O1A,A,1,1,2,ND,Leftover-Choice-1,Leftover-Choice-1,19/58,1/13,1/1,N/A,1/3,2/3,Either Sex,039,Archery
+EE040O1A,A,10,24,ND,ND,5,4,18/36,5/6,N/A,N/A,3/8,3/6,Either Sex,040,Archery
+EE040O1M,A,10,26,ND,ND,7,3,11/22,3/4,N/A,N/A,1/1,1/2,Either Sex,040,muzzleloader
+EE040O1R,A,14,29,ND,ND,3,1,4/6,3/3,N/A,N/A,2/2,3/3,Either Sex,040,rifle
+EE040O2R,A,11,27,ND,ND,6,5,3/12,2/2,N/A,N/A,2/2,2/2,Either Sex,040,rifle
+EE040O3R,A,9,24,ND,ND,4,1,7/23,2/3,N/A,N/A,1/1,2/3,Either Sex,040,rifle
+EE040O4R,A,10,22,ND,ND,2,1,7/9,1/3,N/A,N/A,1/3,1/2,Either Sex,040,rifle
+EE040W1R,A,27,no-apps,ND,no-apps,N/A,N/A,2/4,N/A,N/A,N/A,N/A,N/A,Either Sex,040,rifle
+EE041O1A,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,041,Archery
+EE041P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,041,rifle
+EE041P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,041,rifle
+EE043O1R,A,0,0,0,0,N/A,N/A,105/123,20/53,13/14,1/4,N/A,N/A,Either Sex,043,rifle
+EE043O4R,A,Choice-2,Choice-2,Choice-2,1,N/A,N/A,4/60,6/26,1/12,1/1,N/A,N/A,Either Sex,043,rifle
+EE043P1R,A,Choice-3,0,Choice-3,no-apps,N/A,N/A,1/3,4/4,1/3,N/A,N/A,N/A,Either Sex,043,rifle
+EE046O1A,A,1,1,ND,no-apps,0,ND,34/57,10/21,N/A,N/A,1/1,N/A,Either Sex,046,Archery
+EE048O1A,A,1,2,2,ND,Leftover-Choice-3,ND,28/54,4/31,1/1,N/A,1/1,N/A,Either Sex,048,Archery
+EE049O1A,A,7,9,ND,ND,Leftover-Choice-1,Leftover-Choice-3,68/75,12/39,N/A,N/A,7/12,3/3,Either Sex,049,Archery
+EE050O1A,A,0,0,0,no-apps,Leftover-Choice-1,Leftover-Choice-2,16/42,4/19,1/5,N/A,5/11,1/1,Either Sex,050,Archery
+EE051O1A,A,1,1,1,ND,0,Leftover-Choice-2,27/68,7/11,3/5,N/A,10/10,2/3,Either Sex,051,Archery
+EE052O1A,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,052,Archery
+EE053P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,053,rifle
+EE053P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,053,rifle
+EE054O1A,A,0,3,0,ND,N/A,N/A,96/129,41/68,2/6,N/A,N/A,N/A,Either Sex,054,Archery
+EE055O1A,A,0,2,0,ND,N/A,N/A,165/203,60/70,5/6,N/A,N/A,N/A,Either Sex,055,Archery
+EE056O1A,A,0,0,0,0,Leftover-Choice-2,Leftover-Choice-3,40/41,23/36,6/6,1/1,2/2,1/1,Either Sex,056,Archery
+EE057O1A,A,2,3,2,ND,1,0,66/88,20/35,2/2,N/A,13/41,6/24,Either Sex,057,Archery
+EE060O4R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,26/37,4/8,3/3,3/3,N/A,N/A,Either Sex,060,rifle
+EE060P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,060,rifle
+EE060P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,060,rifle
+EE061E1R,A,22,29,ND,ND,2,1,8/9,1/10,N/A,N/A,3/3,3/6,Either Sex,061,rifle
+EE061O1A,A,16,26,ND,ND,1,0,20/55,11/21,N/A,N/A,9/16,7/7,Either Sex,061,Archery
+EE062O4R,A,0,0,0,0,N/A,N/A,54/58,8/9,7/7,1/2,N/A,N/A,Either Sex,062,rifle
+EE062P1R,A,Choice-2,0,Choice-2,0,N/A,N/A,2/17,38/38,1/2,2/2,N/A,N/A,Either Sex,062,rifle
+EE062P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,062,rifle
+EE064O1R,A,0,0,0,0,N/A,N/A,133/133,168/228,42/42,6/9,N/A,N/A,Either Sex,064,rifle
+EE064O4R,A,Choice-2,Choice-2,0,Choice-2,N/A,N/A,2/52,1/17,7/7,1/4,N/A,N/A,Either Sex,064,rifle
+EE064P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,064,rifle
+EE064P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,064,rifle
+EE066O1A,A,4,13,4,ND,0,Leftover-Choice-1,20/67,2/9,1/2,N/A,6/21,5/7,Either Sex,066,Archery
+EE067O1A,A,2,7,3,ND,1,Leftover-Choice-2,6/36,1/39,1/1,N/A,8/9,2/4,Either Sex,067,Archery
+EE069O1A,A,4,6,5,ND,3,2,27/81,2/11,2/2,N/A,7/11,7/7,Either Sex,069,Archery
+EE070P1A,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,070,Archery
+EE070P1R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,15/21,5/9,5/5,1/1,N/A,N/A,Either Sex,070,rifle
+EE070P4R,A,Choice-3,Choice-2,Choice-2,0,N/A,N/A,2/18,9/10,2/4,1/1,N/A,N/A,Either Sex,070,rifle
+EE071P1A,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,3/15,4/50,1/6,8/8,N/A,N/A,Either Sex,071,Archery
+EE074P1A,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,074,Archery
+EE075P1A,A,Choice-3,Choice-2,Choice-3,0,N/A,N/A,2/7,3/4,1/1,1/1,N/A,N/A,Either Sex,075,Archery
+EE076O1A,A,9,18,ND,ND,Leftover-Choice-1,Leftover-Choice-3,52/86,11/40,N/A,N/A,2/6,1/1,Either Sex,076,Archery
+EE077P1A,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,077,Archery
+EE080O1A,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,76/580,112/803,5/38,3/13,N/A,N/A,Either Sex,080,Archery
+EE082O1M,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,7/20,9/20,1/2,2/2,N/A,N/A,Either Sex,082,muzzleloader
+EE082O1R,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,81/179,17/52,9/17,1/4,N/A,N/A,Either Sex,082,rifle
+EE082O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,082,rifle
+EE083O1M,A,Choice-4,Choice-3,Choice-3,0,0,Leftover-Choice-1,2/7,2/2,2/2,2/2,7/9,4/4,Either Sex,083,muzzleloader
+EE083O1R,A,0,0,0,0,0,Choice-2,67/69,12/14,16/17,3/3,16/32,1/28,Either Sex,083,rifle
+EE083O2R,A,0,0,0,0,0,Leftover-Choice-1,90/96,19/20,12/12,2/2,20/28,12/16,Either Sex,083,rifle
+EE083O3R,A,0,0,0,ND,0,Leftover-Choice-2,84/113,16/17,15/17,N/A,17/21,1/1,Either Sex,083,rifle
+EE083O4R,A,0,0,0,0,0,Leftover-Choice-1,12/70,11/25,1/10,2/2,8/17,1/5,Either Sex,083,rifle
+EE084W1R,A,32,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,084,rifle
+EE084W2R,A,24,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Either Sex,084,rifle
+EE085O1M,A,0,2,0,ND,N/A,N/A,52/76,18/25,3/3,N/A,N/A,N/A,Either Sex,085,muzzleloader
+EE085O1R,A,1,1,1,1,N/A,N/A,34/55,5/25,5/9,1/1,N/A,N/A,Either Sex,085,rifle
+EE085O4R,A,0,0,0,0,N/A,N/A,51/51,34/37,7/7,3/3,N/A,N/A,Either Sex,085,rifle
+EE085P1R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,6/70,1/25,1/14,4/4,N/A,N/A,Either Sex,085,rifle
+EE085W1R,A,26,no-apps,ND,no-apps,N/A,N/A,1/3,N/A,N/A,N/A,N/A,N/A,Either Sex,085,rifle
+EE086O1M,A,0,0,0,ND,N/A,N/A,63/65,12/22,8/8,N/A,N/A,N/A,Either Sex,086,muzzleloader
+EE086O1R,A,0,0,0,ND,N/A,N/A,69/110,6/49,10/13,N/A,N/A,N/A,Either Sex,086,rifle
+EE086O4R,A,Choice-3,Choice-3,Choice-3,no-apps,N/A,N/A,10/34,1/4,2/3,N/A,N/A,N/A,Either Sex,086,rifle
+EE086P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,086,rifle
+EE104O1A,A,0,0,0,no-apps,Leftover-Choice-2,Leftover-Choice-3,13/13,2/2,2/2,N/A,1/1,1/1,Either Sex,104,Archery
+EE104W1R,A,24,no-apps,ND,no-apps,N/A,N/A,1/7,N/A,N/A,N/A,N/A,N/A,Either Sex,104,rifle
+EE128O1M,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,128,muzzleloader
+EE133O1M,A,Choice-2,ND,0,ND,N/A,N/A,2/6,N/A,1/1,N/A,N/A,N/A,Either Sex,133,muzzleloader
+EE161O4R,A,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,13/47,1/10,2/4,N/A,N/A,N/A,Either Sex,161,rifle
+EE171O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,171,rifle
+EE201E1R,A,28,32,ND,ND,3,2,16/19,4/14,N/A,N/A,2/2,2/2,Either Sex,201,rifle
+EE201O1A,A,26,32,ND,ND,3,1,3/4,1/1,N/A,N/A,1/1,1/1,Either Sex,201,Archery
+EE211W1R,A,19,no-apps,ND,no-apps,N/A,N/A,2/4,N/A,N/A,N/A,N/A,N/A,Either Sex,211,rifle
+EE214W1R,A,10,no-apps,ND,no-apps,N/A,N/A,1/3,N/A,N/A,N/A,N/A,N/A,Either Sex,214,rifle
+EE214W2R,A,4,no-apps,5,no-apps,N/A,N/A,3/9,N/A,1/1,N/A,N/A,N/A,Either Sex,214,rifle
+EE231P2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,231,rifle
+EE231P3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,231,rifle
+EE231P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,231,rifle
+EE301W1R,A,1,no-apps,1,no-apps,N/A,N/A,2/5,N/A,2/2,N/A,N/A,N/A,Either Sex,301,rifle
+EE301W2R,A,3,no-apps,ND,no-apps,N/A,N/A,1/5,N/A,N/A,N/A,N/A,N/A,Either Sex,301,rifle
+EE371O1R,A,Choice-3,Choice-3,Choice-2,Choice-2,N/A,N/A,8/33,1/20,1/1,2/2,N/A,N/A,Either Sex,371,rifle
+EE371O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,371,rifle
+EE371P1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,371,rifle
+EE371P4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,371,rifle
+EE391O1A,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,391,Archery
+EE441W1R,A,9,no-apps,ND,no-apps,N/A,N/A,2/2,N/A,N/A,N/A,N/A,N/A,Either Sex,441,rifle
+EE441W2R,A,5,no-apps,5,no-apps,N/A,N/A,2/6,N/A,2/3,N/A,N/A,N/A,Either Sex,441,rifle
+EE461O1A,A,Choice-2,no-apps,0,no-apps,0,ND,27/30,N/A,2/2,N/A,1/1,N/A,Either Sex,461,Archery
+EE471O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Either Sex,471,rifle
+EE481O1A,A,0,2,0,2,Leftover-Choice-1,ND,19/71,16/21,1/2,1/1,4/4,N/A,Either Sex,481,Archery
+EE500O1A,A,3,4,3,ND,Leftover-Choice-1,Leftover-Choice-2,48/54,5/23,2/2,N/A,6/7,5/5,Either Sex,500,Archery
+EE501O1A,A,4,6,4,ND,0,Leftover-Choice-3,27/31,3/18,1/1,N/A,6/6,1/1,Either Sex,501,Archery
+EE521O1A,A,Choice-3,Choice-3,Choice-2,Choice-2,N/A,N/A,13/46,25/133,5/6,3/5,N/A,N/A,Either Sex,521,Archery
+EE551O1A,A,0,2,0,2,N/A,N/A,71/105,28/44,3/4,1/1,N/A,N/A,Either Sex,551,Archery
+EE561O1A,A,0,1,0,no-apps,no-apps,no-apps,34/41,10/10,4/4,N/A,N/A,N/A,Either Sex,561,Archery
+EE851K2R,A,no-apps,no-apps,6,ND,N/A,N/A,N/A,N/A,2/4,N/A,N/A,N/A,Either Sex,851,rifle
+EE851K3R,A,no-apps,no-apps,6,ND,N/A,N/A,N/A,N/A,2/2,N/A,N/A,N/A,Either Sex,851,rifle
+EE851O1A,A,5,13,5,ND,N/A,N/A,3/6,1/2,1/1,N/A,N/A,N/A,Either Sex,851,Archery
+EE851W1R,A,29,no-apps,ND,no-apps,N/A,N/A,1/2,N/A,N/A,N/A,N/A,N/A,Either Sex,851,rifle
+EE851W2R,A,27,no-apps,ND,no-apps,N/A,N/A,3/6,N/A,N/A,N/A,N/A,N/A,Either Sex,851,rifle
+EF001L1R,B,1,1,Choice-3,ND,Choice-3,Leftover-Choice-2,6/6,1/1,1/1,N/A,1/2,1/2,Female,001,rifle
+EF001O1M,B,0,0,no-apps,Choice-2,no-apps,no-apps,2/2,1/1,N/A,1/1,N/A,N/A,Female,001,muzzleloader
+EF001O1R,B,0,0,Choice-2,Choice-2,Choice-2,Choice-3,1/1,2/3,1/1,1/1,1/1,1/1,Female,001,rifle
+EF001O2R,B,Choice-2,Choice-2,ND,Choice-2,Leftover-Choice-1,ND,16/22,5/8,N/A,1/1,1/1,N/A,Female,001,rifle
+EF001O3R,B,Choice-2,Choice-2,ND,no-apps,Leftover-Choice-3,Leftover-Choice-3,8/14,1/1,N/A,N/A,1/3,2/3,Female,001,rifle
+EF001O4R,B,Choice-2,Choice-2,Choice-2,no-apps,Choice-2,no-apps,19/27,3/4,1/1,N/A,1/1,N/A,Female,001,rifle
+EF001P5R,B,0,0,ND,no-apps,Choice-4,Leftover-Choice-1,1/2,5/5,N/A,N/A,1/3,1/2,Female,001,rifle
+EF002L1R,B,3,ND,ND,2,Choice-2,Choice-2,4/5,N/A,N/A,1/2,1/14,1/11,Female,002,rifle
+EF002O1M,B,2,ND,0,ND,no-apps,no-apps,1/1,N/A,1/2,N/A,N/A,N/A,Female,002,muzzleloader
+EF002O1R,B,2,3,0,ND,Choice-2,Choice-2,2/9,2/2,5/8,N/A,3/13,3/12,Female,002,rifle
+EF002O2R,B,1,1,Choice-2,ND,Choice-2,Choice-2,4/14,2/7,2/5,N/A,2/7,2/5,Female,002,rifle
+EF002O3R,B,1,2,0,ND,Choice-2,Choice-3,8/13,5/7,2/6,N/A,3/4,2/14,Female,002,rifle
+EF002O4R,B,1,1,Choice-2,no-apps,Choice-2,Choice-2,9/11,4/5,3/9,N/A,2/7,2/3,Female,002,rifle
+EF003L1R,B,4,14,5,2,N/A,N/A,7/101,1/1,1/1,1/1,N/A,N/A,Female,003,rifle
+EF003O1M,B,0,3,Choice-2,ND,N/A,N/A,1/1,2/2,7/8,N/A,N/A,N/A,Female,003,muzzleloader
+EF003O1R,B,3,3,1,ND,N/A,N/A,3/6,1/7,1/22,N/A,N/A,N/A,Female,003,rifle
+EF003O2R,B,2,4,1,1,N/A,N/A,5/6,1/1,1/6,1/2,N/A,N/A,Female,003,rifle
+EF003O3R,B,1,3,1,ND,N/A,N/A,3/42,1/1,1/5,N/A,N/A,N/A,Female,003,rifle
+EF003O4R,B,1,2,Choice-2,ND,N/A,N/A,1/11,2/2,1/15,N/A,N/A,N/A,Female,003,rifle
+EF003P5R,B,1,1,0,0,N/A,N/A,27/131,34/131,2/8,2/3,N/A,N/A,Female,003,rifle
+EF003W1R,A,2,no-apps,ND,no-apps,N/A,N/A,9/10,N/A,N/A,N/A,N/A,N/A,Female,003,rifle
+EF003W3R,A,2,no-apps,2,no-apps,N/A,N/A,7/12,N/A,1/1,N/A,N/A,N/A,Female,003,rifle
+EF004O1M,B,1,3,1,no-apps,N/A,N/A,1/12,2/2,2/5,N/A,N/A,N/A,Female,004,muzzleloader
+EF004O2R,B,1,1,0,ND,N/A,N/A,1/36,1/14,2/3,N/A,N/A,N/A,Female,004,rifle
+EF004O3R,B,1,5,1,2,N/A,N/A,3/31,1/1,1/1,1/1,N/A,N/A,Female,004,rifle
+EF004P1M,B,Choice-2,0,Choice-2,no-apps,N/A,N/A,4/9,1/1,2/2,N/A,N/A,N/A,Female,004,muzzleloader
+EF004W1R,A,3,no-apps,3,no-apps,N/A,N/A,6/10,N/A,1/1,N/A,N/A,N/A,Female,004,rifle
+EF004W2R,A,2,no-apps,2,no-apps,N/A,N/A,8/9,N/A,2/2,N/A,N/A,N/A,Female,004,rifle
+EF004W3R,A,3,no-apps,3,no-apps,N/A,N/A,7/17,N/A,1/1,N/A,N/A,N/A,Female,004,rifle
+EF005O2R,B,1,2,1,ND,N/A,N/A,5/10,2/4,2/2,N/A,N/A,N/A,Female,005,rifle
+EF005O3R,B,1,1,1,no-apps,N/A,N/A,5/5,2/3,1/1,N/A,N/A,N/A,Female,005,rifle
+EF005W1R,A,no-apps,no-apps,4,no-apps,N/A,N/A,N/A,N/A,1/7,N/A,N/A,N/A,Female,005,rifle
+EF005W2R,A,3,no-apps,3,no-apps,N/A,N/A,5/9,N/A,1/1,N/A,N/A,N/A,Female,005,rifle
+EF005W3R,A,5,no-apps,ND,no-apps,N/A,N/A,1/15,N/A,N/A,N/A,N/A,N/A,Female,005,rifle
+EF005W4R,A,1,no-apps,1,no-apps,N/A,N/A,5/9,N/A,1/1,N/A,N/A,N/A,Female,005,rifle
+EF006O1M,B,Choice-4,Choice-4,Choice-2,no-apps,N/A,N/A,1/18,7/20,3/10,N/A,N/A,N/A,Female,006,muzzleloader
+EF006O1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006W1R,A,3,no-apps,ND,no-apps,N/A,N/A,3/4,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006W2R,A,2,no-apps,ND,no-apps,N/A,N/A,4/6,N/A,N/A,N/A,N/A,N/A,Female,006,rifle
+EF006W3R,A,2,no-apps,2,no-apps,N/A,N/A,3/9,N/A,2/2,N/A,N/A,N/A,Female,006,rifle
+EF006W4R,A,3,no-apps,3,no-apps,N/A,N/A,4/6,N/A,1/1,N/A,N/A,N/A,Female,006,rifle
+EF007L1R,A,0,0,Choice-2,no-apps,no-apps,no-apps,29/68,1/4,2/12,N/A,N/A,N/A,Female,007,rifle
+EF007O1M,A,Choice-2,Choice-2,Choice-2,0,Leftover-Choice-2,ND,122/335,27/58,26/42,3/3,1/1,N/A,Female,007,muzzleloader
+EF007O2R,A,1,1,Choice-2,0,Leftover-Choice-3,ND,77/136,8/14,2/50,1/1,2/2,N/A,Female,007,rifle
+EF007O3R,A,0,0,Choice-3,0,Leftover-Choice-3,ND,43/116,2/13,2/14,1/5,1/1,N/A,Female,007,rifle
+EF007O4R,A,0,0,Choice-2,ND,no-apps,no-apps,24/45,2/4,1/11,N/A,N/A,N/A,Female,007,rifle
+EF007P5R,B,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,2/2,N/A,Female,007,rifle
+EF009L1R,B,Leftover,Leftover,Leftover,Leftover,ND,ND,N/A,N/A,N/A,N/A,N/A,N/A,Female,009,rifle
+EF009P5R,B,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-1,ND,N/A,N/A,N/A,N/A,4/4,N/A,Female,009,rifle
+EF010L1R,B,3,3,2,ND,Choice-2,Choice-2,1/12,1/3,1/1,N/A,1/16,1/5,Female,010,rifle
+EF010O1M,B,2,1,0,no-apps,ND,no-apps,1/1,2/2,1/1,N/A,N/A,N/A,Female,010,muzzleloader
+EF010O1R,B,1,2,1,1,Choice-2,Leftover-Choice-3,1/30,6/7,6/11,1/1,4/4,1/1,Female,010,rifle
+EF010O2R,B,1,1,0,ND,Choice-2,Choice-4,11/22,1/4,1/9,N/A,4/6,2/4,Female,010,rifle
+EF010O3R,B,0,1,0,0,Choice-3,Leftover-Choice-1,3/13,3/11,2/4,4/5,1/7,2/3,Female,010,rifle
+EF010O4R,B,0,0,0,0,Choice-3,Choice-4,12/16,1/3,1/5,2/4,2/9,2/5,Female,010,rifle
+EF010P5R,B,Choice-2,1,Choice-2,0,Choice-2,Choice-2,8/42,1/1,2/3,2/2,5/12,5/12,Female,010,rifle
+EF010W1R,A,3,no-apps,3,no-apps,N/A,N/A,1/10,N/A,1/1,N/A,N/A,N/A,Female,010,rifle
+EF011L1R,B,3,3,1,ND,N/A,N/A,4/5,1/1,2/2,N/A,N/A,N/A,Female,011,rifle
+EF011O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,011,muzzleloader
+EF011O1R,B,1,1,0,0,N/A,N/A,127/248,46/81,26/38,1/10,N/A,N/A,Female,011,rifle
+EF011O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,011,rifle
+EF011O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,011,rifle
+EF011O4R,B,Choice-2,Choice-2,Choice-4,Choice-2,N/A,N/A,67/177,10/61,2/8,9/16,N/A,N/A,Female,011,rifle
+EF011P5R,B,0,0,Choice-3,0,N/A,N/A,107/137,156/179,1/6,7/7,N/A,N/A,Female,011,rifle
+EF011W1R,A,4,no-apps,ND,no-apps,N/A,N/A,3/3,N/A,N/A,N/A,N/A,N/A,Female,011,rifle
+EF011W2R,A,2,no-apps,ND,no-apps,N/A,N/A,8/13,N/A,N/A,N/A,N/A,N/A,Female,011,rifle
+EF011W3R,A,4,no-apps,ND,no-apps,N/A,N/A,7/7,N/A,N/A,N/A,N/A,N/A,Female,011,rifle
+EF011W4R,A,2,no-apps,2,no-apps,N/A,N/A,2/9,N/A,1/1,N/A,N/A,N/A,Female,011,rifle
+EF012O1M,B,Choice-2,Choice-2,Choice-3,Choice-2,N/A,N/A,25/72,5/6,1/8,1/2,N/A,N/A,Female,012,muzzleloader
+EF012O2R,B,0,0,0,0,N/A,N/A,92/101,34/54,12/12,3/3,N/A,N/A,Female,012,rifle
+EF012O3R,B,Choice-2,Choice-2,Choice-2,0,N/A,N/A,61/135,11/91,4/13,3/3,N/A,N/A,Female,012,rifle
+EF012P1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,012,muzzleloader
+EF013L1R,B,1,1,Choice-3,ND,N/A,N/A,28/42,9/12,2/2,N/A,N/A,N/A,Female,013,rifle
+EF014O1M,A,0,0,0,ND,N/A,N/A,3/3,4/4,1/1,N/A,N/A,N/A,Female,014,muzzleloader
+EF014O1R,A,1,1,1,ND,N/A,N/A,5/15,1/7,2/2,N/A,N/A,N/A,Female,014,rifle
+EF014O2R,A,1,1,Choice-2,ND,N/A,N/A,3/11,1/3,1/3,N/A,N/A,N/A,Female,014,rifle
+EF014O3R,A,0,1,ND,no-apps,N/A,N/A,4/6,1/2,N/A,N/A,N/A,N/A,Female,014,rifle
+EF014O4R,A,0,2,Choice-2,no-apps,N/A,N/A,3/11,1/1,2/3,N/A,N/A,N/A,Female,014,rifle
+EF014P5R,B,0,ND,Choice-2,no-apps,N/A,N/A,3/18,N/A,2/6,N/A,N/A,N/A,Female,014,rifle
+EF015O1M,B,Choice-3,Choice-3,Choice-2,no-apps,N/A,N/A,21/53,9/15,3/7,N/A,N/A,N/A,Female,015,muzzleloader
+EF015O1R,B,Choice-3,Choice-3,Choice-3,Choice-3,N/A,N/A,26/69,2/4,3/5,1/1,N/A,N/A,Female,015,rifle
+EF015O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,015,rifle
+EF015O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,015,rifle
+EF015O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,015,rifle
+EF015P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,015,rifle
+EF016O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,016,rifle
+EF016O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,016,rifle
+EF017O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,017,rifle
+EF017O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,017,rifle
+EF018L1R,B,1,ND,0,no-apps,N/A,N/A,1/7,N/A,1/3,N/A,N/A,N/A,Female,018,rifle
+EF018O1M,B,Choice-4,Choice-3,Choice-2,Choice-2,N/A,N/A,1/14,5/12,5/9,1/1,N/A,N/A,Female,018,muzzleloader
+EF018O1R,B,Choice-2,Choice-2,Choice-2,ND,N/A,N/A,45/211,1/27,2/10,N/A,N/A,N/A,Female,018,rifle
+EF018O2R,B,Choice-2,Choice-2,Choice-3,Choice-2,N/A,N/A,139/231,12/13,1/8,1/2,N/A,N/A,Female,018,rifle
+EF018O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,018,rifle
+EF018O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,018,rifle
+EF018P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,018,rifle
+EF019L1R,A,Choice-2,ND,Choice-2,no-apps,ND,ND,24/38,N/A,2/2,N/A,N/A,N/A,Female,019,rifle
+EF019O2R,A,0,0,Choice-2,no-apps,no-apps,no-apps,28/35,1/1,1/2,N/A,N/A,N/A,Female,019,rifle
+EF019O3R,A,Choice-2,0,0,no-apps,ND,ND,9/36,1/1,1/1,N/A,N/A,N/A,Female,019,rifle
+EF019O4R,A,Choice-2,ND,Choice-2,no-apps,no-apps,no-apps,11/19,N/A,3/4,N/A,N/A,N/A,Female,019,rifle
+EF019P5R,B,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Female,019,rifle
+EF020L1R,A,0,0,0,no-apps,Leftover-Choice-2,ND,2/16,1/4,2/2,N/A,1/1,N/A,Female,020,rifle
+EF020L3R,C,Choice-3,Choice-2,Choice-3,no-apps,Leftover-Choice-3,ND,27/53,1/1,1/4,N/A,1/1,N/A,Female,020,rifle
+EF020O1A,A,0,ND,0,no-apps,no-apps,no-apps,3/9,N/A,3/4,N/A,N/A,N/A,Female,020,Archery
+EF020O1M,A,Choice-2,ND,0,ND,no-apps,no-apps,2/20,N/A,1/1,N/A,N/A,N/A,Female,020,muzzleloader
+EF020O2R,A,0,ND,0,0,Leftover-Choice-3,ND,8/27,N/A,4/9,1/1,1/1,N/A,Female,020,rifle
+EF020O3R,A,0,1,Choice-4,no-apps,Leftover-Choice-3,ND,6/8,1/1,1/11,N/A,1/1,N/A,Female,020,rifle
+EF020O4R,A,Choice-2,Choice-2,Choice-2,no-apps,Leftover-Choice-2,ND,3/29,1/2,2/4,N/A,1/1,N/A,Female,020,rifle
+EF020P5R,B,0,0,Choice-4,ND,Leftover-Choice-3,ND,178/285,6/12,2/4,N/A,17/17,N/A,Female,020,rifle
+EF021O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,021,muzzleloader
+EF021O1R,B,1,1,0,1,N/A,N/A,35/39,9/10,5/16,1/1,N/A,N/A,Female,021,rifle
+EF021O2R,B,1,1,0,0,N/A,N/A,92/118,22/78,5/30,1/14,N/A,N/A,Female,021,rifle
+EF021O3R,B,0,1,0,0,N/A,N/A,9/63,11/24,3/4,9/11,N/A,N/A,Female,021,rifle
+EF021O4R,B,Choice-2,Choice-2,Choice-4,Choice-2,N/A,N/A,60/110,1/11,6/14,2/2,N/A,N/A,Female,021,rifle
+EF022L1R,B,1,2,0,ND,N/A,N/A,10/80,1/1,1/6,N/A,N/A,N/A,Female,022,rifle
+EF022P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,022,rifle
+EF023P5R,B,Choice-2,0,Choice-2,Choice-2,N/A,N/A,18/26,15/15,4/5,1/1,N/A,N/A,Female,023,rifle
+EF023W1R,A,6,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Female,023,rifle
+EF023W2R,A,6,no-apps,ND,no-apps,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Female,023,rifle
+EF025O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,025,muzzleloader
+EF025O1R,B,Choice-2,Choice-2,0,ND,N/A,N/A,40/77,1/31,11/11,N/A,N/A,N/A,Female,025,rifle
+EF025O2R,B,0,0,Choice-2,0,N/A,N/A,53/77,17/38,3/4,2/2,N/A,N/A,Female,025,rifle
+EF025O3R,B,1,1,Choice-2,0,N/A,N/A,31/32,6/18,1/5,3/3,N/A,N/A,Female,025,rifle
+EF025O4R,B,Choice-2,0,Choice-2,0,N/A,N/A,8/36,7/7,1/1,1/1,N/A,N/A,Female,025,rifle
+EF025P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,025,rifle
+EF025W1R,A,2,no-apps,3,no-apps,N/A,N/A,4/13,N/A,1/1,N/A,N/A,N/A,Female,025,rifle
+EF025W2R,A,2,no-apps,1,no-apps,N/A,N/A,8/8,N/A,1/2,N/A,N/A,N/A,Female,025,rifle
+EF026L1R,B,1,ND,0,no-apps,N/A,N/A,8/26,N/A,1/1,N/A,N/A,N/A,Female,026,rifle
+EF027L1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,027,rifle
+EF027O1R,B,Choice-3,Choice-3,Choice-3,no-apps,N/A,N/A,20/32,1/3,2/4,N/A,N/A,N/A,Female,027,rifle
+EF027O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,027,rifle
+EF027O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,027,rifle
+EF027O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,027,rifle
+EF027P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,027,rifle
+EF028L1R,B,2,ND,0,no-apps,N/A,N/A,3/3,N/A,2/3,N/A,N/A,N/A,Female,028,rifle
+EF028O1M,B,Choice-2,Choice-2,Choice-2,ND,N/A,N/A,21/113,3/19,4/9,N/A,N/A,N/A,Female,028,muzzleloader
+EF028O1R,B,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,72/234,1/12,5/20,N/A,N/A,N/A,Female,028,rifle
+EF028O2R,B,0,0,Choice-2,0,N/A,N/A,191/192,22/22,3/11,2/2,N/A,N/A,Female,028,rifle
+EF028O3R,B,Choice-3,Choice-2,Choice-3,no-apps,N/A,N/A,32/118,10/18,1/6,N/A,N/A,N/A,Female,028,rifle
+EF028O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,028,rifle
+EF028P5R,B,1,1,0,ND,N/A,N/A,4/35,1/1,2/6,N/A,N/A,N/A,Female,028,rifle
+EF029O1M,A,Choice-2,0,0,no-apps,no-apps,no-apps,1/21,1/1,3/3,N/A,N/A,N/A,Female,029,muzzleloader
+EF029O1R,A,1,no-apps,0,no-apps,ND,ND,6/7,N/A,2/3,N/A,N/A,N/A,Female,029,rifle
+EF029O2R,A,Choice-2,0,Choice-4,no-apps,ND,ND,5/15,1/1,1/3,N/A,N/A,N/A,Female,029,rifle
+EF029O3R,A,Choice-2,ND,ND,no-apps,no-apps,no-apps,9/47,N/A,N/A,N/A,N/A,N/A,Female,029,rifle
+EF029O4R,A,Choice-2,no-apps,ND,no-apps,no-apps,no-apps,6/21,N/A,N/A,N/A,N/A,N/A,Female,029,rifle
+EF029P5R,B,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-2,ND,N/A,N/A,N/A,N/A,2/2,N/A,Female,029,rifle
+EF030L1R,B,1,1,Choice-2,0,N/A,N/A,67/68,1/1,7/25,2/2,N/A,N/A,Female,030,rifle
+EF030O3R,B,Choice-2,Choice-2,Choice-2,0,N/A,N/A,51/99,8/24,12/22,7/7,N/A,N/A,Female,030,rifle
+EF030O4R,B,Choice-4,Choice-3,Choice-3,ND,N/A,N/A,6/18,2/4,5/10,N/A,N/A,N/A,Female,030,rifle
+EF031L1R,B,Choice-2,Choice-2,Choice-3,3,N/A,N/A,270/375,3/5,3/9,1/1,N/A,N/A,Female,031,rifle
+EF033O1M,B,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,26/102,13/34,4/7,3/3,N/A,N/A,Female,033,muzzleloader
+EF033O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,033,rifle
+EF033O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,033,rifle
+EF033O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,033,rifle
+EF033P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,033,rifle
+EF034O2R,B,1,ND,1,no-apps,N/A,N/A,2/14,N/A,2/2,N/A,N/A,N/A,Female,034,rifle
+EF034O3R,B,0,1,Choice-2,no-apps,N/A,N/A,1/9,2/3,1/2,N/A,N/A,N/A,Female,034,rifle
+EF034O4R,B,Choice-2,0,ND,no-apps,N/A,N/A,5/18,1/1,N/A,N/A,N/A,N/A,Female,034,rifle
+EF034P5R,B,0,0,no-apps,ND,N/A,N/A,7/7,1/1,N/A,N/A,N/A,N/A,Female,034,rifle
+EF035L1R,A,4,ND,2,ND,N/A,N/A,3/5,N/A,1/1,N/A,N/A,N/A,Female,035,rifle
+EF035O1M,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,035,muzzleloader
+EF035O1R,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,33/116,21/46,2/12,3/4,N/A,N/A,Female,035,rifle
+EF035O2R,A,0,0,0,0,N/A,N/A,23/37,3/8,3/3,1/1,N/A,N/A,Female,035,rifle
+EF035O3R,A,Choice-2,0,0,0,N/A,N/A,9/21,7/7,3/3,2/2,N/A,N/A,Female,035,rifle
+EF035O4R,A,Choice-4,ND,ND,no-apps,N/A,N/A,2/11,N/A,N/A,N/A,N/A,N/A,Female,035,rifle
+EF035P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,035,rifle
+EF036O2R,A,Choice-3,0,Choice-2,ND,N/A,N/A,2/16,7/7,5/10,N/A,N/A,N/A,Female,036,rifle
+EF036O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,036,rifle
+EF036O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,036,rifle
+EF036P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,036,rifle
+EF038L1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,038,rifle
+EF038L2R,B,Choice-2,ND,Choice-2,no-apps,N/A,N/A,9/64,N/A,4/6,N/A,N/A,N/A,Female,038,rifle
+EF038O1M,B,0,0,Choice-2,no-apps,N/A,N/A,7/8,1/1,1/5,N/A,N/A,N/A,Female,038,muzzleloader
+EF038O1R,B,0,1,Choice-2,no-apps,N/A,N/A,8/19,1/1,2/4,N/A,N/A,N/A,Female,038,rifle
+EF038O2R,B,2,ND,0,no-apps,N/A,N/A,8/13,N/A,2/3,N/A,N/A,N/A,Female,038,rifle
+EF038O3R,B,0,0,Choice-3,no-apps,N/A,N/A,1/10,1/1,1/1,N/A,N/A,N/A,Female,038,rifle
+EF038O4R,B,Choice-3,no-apps,ND,no-apps,N/A,N/A,2/9,N/A,N/A,N/A,N/A,N/A,Female,038,rifle
+EF038P5R,B,1,ND,0,no-apps,N/A,N/A,3/22,N/A,3/3,N/A,N/A,N/A,Female,038,rifle
+EF039O1M,A,0,0,Choice-2,ND,no-apps,no-apps,5/12,1/1,2/5,N/A,N/A,N/A,Female,039,muzzleloader
+EF039O1R,A,0,0,Choice-3,0,ND,no-apps,8/19,1/2,1/4,1/1,N/A,N/A,Female,039,rifle
+EF039O2R,A,0,ND,0,no-apps,no-apps,no-apps,8/19,N/A,2/2,N/A,N/A,N/A,Female,039,rifle
+EF039O3R,A,Choice-2,Choice-2,Choice-2,no-apps,Leftover-Choice-2,ND,3/27,1/3,1/4,N/A,1/1,N/A,Female,039,rifle
+EF039O4R,A,Choice-2,ND,Choice-2,no-apps,Leftover-Choice-2,Leftover-Choice-2,2/15,N/A,1/3,N/A,1/2,1/2,Female,039,rifle
+EF039P5R,B,0,0,Choice-2,no-apps,0,Leftover-Choice-1,6/27,1/1,1/3,N/A,3/4,2/4,Female,039,rifle
+EF040O1M,B,1,ND,0,no-apps,Choice-2,Choice-4,3/8,N/A,2/2,N/A,1/5,1/1,Female,040,muzzleloader
+EF040O1R,B,0,2,0,0,Choice-3,Leftover-Choice-1,9/32,1/1,4/12,1/1,2/7,2/2,Female,040,rifle
+EF040O2R,B,0,0,Choice-2,no-apps,Choice-2,Choice-2,4/21,1/1,2/10,N/A,3/13,3/12,Female,040,rifle
+EF040O3R,B,Choice-2,0,Choice-3,no-apps,Choice-2,Choice-3,2/29,2/2,1/4,N/A,3/5,3/6,Female,040,rifle
+EF040O4R,B,Choice-2,0,Choice-2,no-apps,Choice-4,Leftover-Choice-3,8/107,3/3,3/5,N/A,2/7,1/1,Female,040,rifle
+EF040P5R,B,0,0,Choice-2,ND,Choice-2,Choice-2,55/56,4/4,3/11,N/A,6/49,12/49,Female,040,rifle
+EF040W1R,A,3,no-apps,3,no-apps,N/A,N/A,13/15,N/A,1/1,N/A,N/A,N/A,Female,040,rifle
+EF040W2R,A,2,no-apps,ND,no-apps,N/A,N/A,3/10,N/A,N/A,N/A,N/A,N/A,Female,040,rifle
+EF041O1M,B,Choice-3,Choice-3,Choice-3,Choice-2,N/A,N/A,11/60,4/28,2/4,3/5,N/A,N/A,Female,041,muzzleloader
+EF041O1R,B,0,0,0,0,N/A,N/A,84/135,16/33,26/42,3/3,N/A,N/A,Female,041,rifle
+EF041O2R,B,Choice-3,Choice-2,Choice-3,Choice-2,N/A,N/A,12/52,5/7,6/14,1/1,N/A,N/A,Female,041,rifle
+EF041O3R,B,Choice-4,Choice-2,Choice-2,no-apps,N/A,N/A,1/19,6/10,5/7,N/A,N/A,N/A,Female,041,rifle
+EF041O4R,B,Choice-2,0,Choice-2,no-apps,N/A,N/A,18/34,2/2,1/6,N/A,N/A,N/A,Female,041,rifle
+EF041P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,041,rifle
+EF042O2R,B,Choice-4,Choice-4,Choice-4,Choice-2,N/A,N/A,2/19,1/5,2/4,2/3,N/A,N/A,Female,042,rifle
+EF042O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,042,rifle
+EF042O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,042,rifle
+EF042P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,042,rifle
+EF043O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,043,muzzleloader
+EF043O1R,B,Choice-2,Choice-2,Choice-2,ND,N/A,N/A,9/133,3/19,2/9,N/A,N/A,N/A,Female,043,rifle
+EF043O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,043,rifle
+EF043O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,043,rifle
+EF043O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,043,rifle
+EF043P5R,B,0,0,Choice-2,no-apps,N/A,N/A,44/76,1/2,1/13,N/A,N/A,N/A,Female,043,rifle
+EF044O1M,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,044,muzzleloader
+EF044O1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,044,rifle
+EF044O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,044,rifle
+EF044O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,044,rifle
+EF044O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,044,rifle
+EF045O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,045,rifle
+EF045O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,045,rifle
+EF045O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,045,rifle
+EF046O1M,A,0,ND,Choice-2,no-apps,no-apps,no-apps,12/13,N/A,1/2,N/A,N/A,N/A,Female,046,muzzleloader
+EF046O1R,A,Choice-2,no-apps,0,Choice-2,Leftover-Choice-2,ND,2/20,N/A,2/3,1/1,1/1,N/A,Female,046,rifle
+EF046O2R,A,0,ND,0,no-apps,no-apps,no-apps,16/19,N/A,3/3,N/A,N/A,N/A,Female,046,rifle
+EF046O3R,A,Choice-3,Choice-2,0,no-apps,no-apps,no-apps,3/15,1/1,1/1,N/A,N/A,N/A,Female,046,rifle
+EF046O4R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,046,rifle
+EF046P5R,B,Choice-2,no-apps,Choice-2,no-apps,Leftover-Choice-3,ND,3/11,N/A,1/2,N/A,1/1,N/A,Female,046,rifle
+EF047O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,047,rifle
+EF047O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,047,rifle
+EF047O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,047,rifle
+EF048O1M,A,Choice-2,0,0,no-apps,no-apps,no-apps,3/58,3/6,4/4,N/A,N/A,N/A,Female,048,muzzleloader
+EF048O2R,A,1,2,0,ND,Leftover-Choice-3,ND,15/28,1/1,1/6,N/A,2/2,N/A,Female,048,rifle
+EF048O3R,A,1,1,Choice-4,no-apps,Leftover-Choice-2,ND,10/10,1/3,1/6,N/A,1/1,N/A,Female,048,rifle
+EF048O4R,A,0,ND,Choice-2,no-apps,Leftover-Choice-3,ND,15/16,N/A,2/6,N/A,1/1,N/A,Female,048,rifle
+EF049O1M,A,1,1,1,1,Leftover-Choice-3,ND,20/56,2/2,8/8,2/2,2/2,N/A,Female,049,muzzleloader
+EF049O2R,A,2,2,0,1,Leftover-Choice-3,ND,56/61,4/4,8/23,2/2,3/3,N/A,Female,049,rifle
+EF049O3R,A,0,1,Choice-3,Choice-2,Leftover-Choice-3,ND,18/47,2/2,4/19,3/3,1/1,N/A,Female,049,rifle
+EF049O4R,A,0,0,Choice-3,ND,Leftover-Choice-3,ND,72/97,4/8,1/10,N/A,7/7,N/A,Female,049,rifle
+EF049S2R,A,0,no-apps,0,0,no-apps,no-apps,11/33,N/A,5/7,1/1,N/A,N/A,Female,049,rifle
+EF049S3R,A,Choice-2,ND,Choice-2,no-apps,no-apps,no-apps,13/59,N/A,1/6,N/A,N/A,N/A,Female,049,rifle
+EF049S4R,A,Choice-3,Choice-3,Choice-3,no-apps,no-apps,no-apps,6/29,1/1,1/3,N/A,N/A,N/A,Female,049,rifle
+EF050L1R,B,5,ND,0,no-apps,Leftover-Choice-1,Leftover-Choice-3,5/10,N/A,1/5,N/A,1/1,1/1,Female,050,rifle
+EF050O1M,B,Choice-3,Choice-2,Choice-2,no-apps,Leftover-Choice-3,ND,1/17,1/5,4/4,N/A,1/1,N/A,Female,050,muzzleloader
+EF050O2R,B,Choice-2,Choice-2,Choice-2,ND,Leftover-Choice-3,ND,8/145,4/15,4/19,N/A,5/5,N/A,Female,050,rifle
+EF050O3R,B,Choice-2,Choice-2,Choice-2,no-apps,Leftover-Choice-3,ND,36/128,5/16,6/20,N/A,3/3,N/A,Female,050,rifle
+EF050O4R,B,Choice-2,1,Choice-2,ND,Leftover-Choice-3,Leftover-Choice-3,47/127,1/1,5/8,N/A,1/5,2/3,Female,050,rifle
+EF050P5R,B,1,2,1,no-apps,0,Choice-2,12/21,1/1,4/4,N/A,3/5,2/3,Female,050,rifle
+EF051O1M,A,Choice-2,Choice-2,Choice-2,no-apps,no-apps,no-apps,7/52,2/6,1/8,N/A,N/A,N/A,Female,051,muzzleloader
+EF051O1R,A,Choice-2,0,Choice-2,no-apps,Leftover-Choice-1,ND,6/49,1/1,4/5,N/A,1/1,N/A,Female,051,rifle
+EF051O2R,A,Choice-2,Choice-2,Choice-2,no-apps,Leftover-Choice-2,ND,19/58,1/3,3/6,N/A,1/1,N/A,Female,051,rifle
+EF051O3R,A,Choice-2,Choice-2,ND,no-apps,Leftover-Choice-3,ND,20/39,1/3,N/A,N/A,1/1,N/A,Female,051,rifle
+EF051O4R,A,Choice-2,ND,Choice-2,no-apps,ND,ND,13/25,N/A,1/1,N/A,N/A,N/A,Female,051,rifle
+EF051P5R,B,Choice-3,Choice-2,Choice-3,no-apps,Leftover-Choice-3,ND,23/38,2/3,2/8,N/A,8/8,N/A,Female,051,rifle
+EF052O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,052,rifle
+EF052O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,052,rifle
+EF052O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,052,rifle
+EF052P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,052,rifle
+EF053O1M,A,0,2,0,1,N/A,N/A,8/10,4/4,2/2,1/1,N/A,N/A,Female,053,muzzleloader
+EF053O1R,A,0,2,0,ND,N/A,N/A,2/13,2/5,1/3,N/A,N/A,N/A,Female,053,rifle
+EF053O2R,A,0,1,Choice-3,ND,N/A,N/A,6/19,4/5,2/4,N/A,N/A,N/A,Female,053,rifle
+EF053O3R,A,Choice-2,0,0,ND,N/A,N/A,3/28,6/11,3/3,N/A,N/A,N/A,Female,053,rifle
+EF053O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,053,rifle
+EF053P5R,B,0,0,Choice-2,no-apps,N/A,N/A,60/68,3/3,5/8,N/A,N/A,N/A,Female,053,rifle
+EF054O1M,A,0,0,0,1,N/A,N/A,7/11,1/2,2/2,1/1,N/A,N/A,Female,054,muzzleloader
+EF054O1R,A,1,1,0,0,N/A,N/A,17/21,5/6,4/4,1/1,N/A,N/A,Female,054,rifle
+EF054O2R,A,0,1,0,0,N/A,N/A,8/40,1/12,4/5,3/4,N/A,N/A,Female,054,rifle
+EF054O3R,A,1,1,Choice-2,0,N/A,N/A,10/29,6/8,2/5,1/1,N/A,N/A,Female,054,rifle
+EF054O4R,A,0,0,Choice-3,Choice-2,N/A,N/A,7/23,1/3,1/1,1/2,N/A,N/A,Female,054,rifle
+EF054P5R,B,Choice-3,Choice-3,Choice-2,no-apps,N/A,N/A,7/9,5/11,3/3,N/A,N/A,N/A,Female,054,rifle
+EF055O1M,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,16/82,14/42,1/2,3/5,N/A,N/A,Female,055,muzzleloader
+EF055O1R,A,0,0,0,0,N/A,N/A,40/120,6/20,19/22,2/2,N/A,N/A,Female,055,rifle
+EF055O2R,A,0,0,Choice-2,0,N/A,N/A,22/139,9/59,2/27,3/3,N/A,N/A,Female,055,rifle
+EF055O3R,A,1,1,0,0,N/A,N/A,7/88,3/14,8/24,1/6,N/A,N/A,Female,055,rifle
+EF055O4R,A,2,2,0,no-apps,N/A,N/A,3/7,2/3,1/2,N/A,N/A,N/A,Female,055,rifle
+EF056O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,056,muzzleloader
+EF056O2R,A,0,0,Choice-2,ND,Leftover-Choice-3,ND,24/33,3/3,1/5,N/A,1/1,N/A,Female,056,rifle
+EF056O3R,A,Choice-2,Choice-2,Choice-2,2,Leftover-Choice-3,ND,6/37,2/8,1/7,1/1,1/1,N/A,Female,056,rifle
+EF056O4R,A,Choice-3,ND,ND,no-apps,no-apps,no-apps,8/25,N/A,N/A,N/A,N/A,N/A,Female,056,rifle
+EF056P5R,B,2,ND,Choice-2,ND,0,ND,1/11,N/A,1/2,N/A,1/1,N/A,Female,056,rifle
+EF057O1M,A,0,0,0,no-apps,Leftover-Choice-1,Leftover-Choice-3,31/36,3/5,16/18,N/A,1/9,1/1,Female,057,muzzleloader
+EF057O1R,A,0,0,0,ND,Leftover-Choice-1,Leftover-Choice-2,28/42,1/1,9/14,N/A,1/1,5/5,Female,057,rifle
+EF057O2R,A,0,1,Choice-2,Choice-2,Choice-2,Leftover-Choice-2,11/67,1/1,6/27,1/2,11/37,9/15,Female,057,rifle
+EF057O3R,A,0,0,Choice-4,0,Choice-3,Leftover-Choice-3,16/77,1/6,1/8,1/3,3/26,6/9,Female,057,rifle
+EF057O4R,A,Choice-2,0,Choice-2,ND,Leftover-Choice-2,ND,8/159,3/3,2/12,N/A,3/4,N/A,Female,057,rifle
+EF057P5R,B,Choice-2,Choice-2,Choice-2,no-apps,Choice-2,Leftover-Choice-1,50/155,14/35,7/12,N/A,11/42,4/26,Female,057,rifle
+EF059O1M,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,38/81,2/14,13/21,1/1,N/A,N/A,Female,059,muzzleloader
+EF059O1R,A,0,0,0,ND,N/A,N/A,21/27,1/1,6/6,N/A,N/A,N/A,Female,059,rifle
+EF059O2R,A,Choice-2,0,Choice-4,Choice-3,N/A,N/A,1/78,11/11,1/5,1/1,N/A,N/A,Female,059,rifle
+EF059O3R,A,Choice-3,ND,Choice-2,no-apps,N/A,N/A,8/49,N/A,1/3,N/A,N/A,N/A,Female,059,rifle
+EF059O4R,A,Choice-2,ND,Choice-2,no-apps,N/A,N/A,2/25,N/A,1/5,N/A,N/A,N/A,Female,059,rifle
+EF059P5R,B,0,0,Choice-3,no-apps,N/A,N/A,54/69,6/7,1/2,N/A,N/A,N/A,Female,059,rifle
+EF060O1M,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,060,muzzleloader
+EF060O1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,060,rifle
+EF060O2R,A,Choice-2,Choice-3,0,0,N/A,N/A,2/2,1/4,3/3,1/1,N/A,N/A,Female,060,rifle
+EF060O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,060,rifle
+EF060O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,060,rifle
+EF060P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,060,rifle
+EF061O1M,A,3,3,1,1,Choice-2,Leftover-Choice-2,10/14,1/1,1/5,2/2,4/9,1/3,Female,061,muzzleloader
+EF061O1R,A,2,4,2,2,Leftover-Choice-1,Leftover-Choice-2,4/24,1/5,5/9,2/3,2/18,3/3,Female,061,rifle
+EF061O2R,A,2,2,0,0,Leftover-Choice-1,Leftover-Choice-2,38/55,7/17,9/16,2/4,4/25,7/13,Female,061,rifle
+EF061O3R,A,1,1,Choice-4,1,Leftover-Choice-1,Leftover-Choice-3,66/83,21/29,2/10,3/3,9/27,4/17,Female,061,rifle
+EF061O4R,A,0,0,Choice-3,0,Leftover-Choice-2,Leftover-Choice-3,101/117,7/10,1/8,2/2,20/23,23/23,Female,061,rifle
+EF061P5R,B,Choice-2,0,Choice-2,no-apps,Leftover-Choice-3,ND,46/68,2/2,8/9,N/A,5/5,N/A,Female,061,rifle
+EF062O1M,A,Choice-2,Choice-2,Choice-4,1,N/A,N/A,22/67,8/15,1/2,1/1,N/A,N/A,Female,062,muzzleloader
+EF062O1R,A,0,0,0,1,N/A,N/A,36/38,5/10,15/17,1/1,N/A,N/A,Female,062,rifle
+EF062O2R,A,1,1,0,0,N/A,N/A,31/55,8/28,5/23,2/8,N/A,N/A,Female,062,rifle
+EF062O3R,A,0,0,Choice-4,0,N/A,N/A,32/55,6/9,1/7,1/1,N/A,N/A,Female,062,rifle
+EF062O4R,A,Choice-2,0,Choice-2,ND,N/A,N/A,9/73,1/1,1/6,N/A,N/A,N/A,Female,062,rifle
+EF062P2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,062,rifle
+EF062P3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,062,rifle
+EF062P4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,062,rifle
+EF063O1M,A,Choice-2,0,Choice-2,0,N/A,N/A,6/9,4/4,1/2,1/1,N/A,N/A,Female,063,muzzleloader
+EF063O1R,A,Choice-2,0,Choice-2,0,N/A,N/A,5/35,11/11,1/3,2/2,N/A,N/A,Female,063,rifle
+EF063O2R,A,0,1,0,0,N/A,N/A,37/37,14/15,6/6,3/3,N/A,N/A,Female,063,rifle
+EF063O3R,A,0,0,0,Choice-2,N/A,N/A,13/30,1/8,2/2,1/1,N/A,N/A,Female,063,rifle
+EF063O4R,A,Choice-4,Choice-2,Choice-3,ND,N/A,N/A,1/8,1/4,1/2,N/A,N/A,N/A,Female,063,rifle
+EF063P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,063,rifle
+EF064O1M,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,muzzleloader
+EF064O1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064O2R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,25/68,7/16,1/2,4/4,N/A,N/A,Female,064,rifle
+EF064O3R,A,Choice-3,Choice-2,Choice-3,0,N/A,N/A,5/24,4/17,1/2,3/3,N/A,N/A,Female,064,rifle
+EF064O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064P1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064P2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064P3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064P4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF064P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,064,rifle
+EF066O1M,A,0,0,0,0,Leftover-Choice-2,ND,8/12,1/5,2/4,1/1,2/2,N/A,Female,066,muzzleloader
+EF066O1R,A,0,0,0,0,Leftover-Choice-1,Leftover-Choice-3,9/55,3/12,13/23,2/2,3/8,4/5,Female,066,rifle
+EF066O2R,A,1,1,Choice-2,Choice-2,Leftover-Choice-2,Leftover-Choice-3,67/69,14/14,5/31,2/8,1/9,1/1,Female,066,rifle
+EF066O3R,A,0,0,Choice-3,0,Leftover-Choice-3,Leftover-Choice-3,63/70,22/27,1/6,1/1,2/8,2/3,Female,066,rifle
+EF066O4R,A,0,0,0,4,Leftover-Choice-3,Leftover-Choice-3,53/55,12/12,5/5,1/1,2/9,3/5,Female,066,rifle
+EF067O1M,A,0,0,Choice-2,0,Leftover-Choice-3,ND,19/29,2/3,1/4,1/1,2/2,N/A,Female,067,muzzleloader
+EF067O1R,A,0,0,Choice-2,0,Leftover-Choice-3,Leftover-Choice-3,16/73,1/12,2/17,2/3,2/3,1/2,Female,067,rifle
+EF067O2R,A,0,0,Choice-4,1,Leftover-Choice-1,Leftover-Choice-2,16/53,1/16,1/4,2/2,12/12,2/2,Female,067,rifle
+EF067O3R,A,0,1,0,2,Leftover-Choice-1,Leftover-Choice-3,10/91,12/15,5/12,1/1,9/9,4/10,Female,067,rifle
+EF067O4R,A,0,0,0,no-apps,Leftover-Choice-2,Leftover-Choice-3,40/60,3/8,6/6,N/A,3/7,3/3,Female,067,rifle
+EF068O1M,A,2,ND,0,no-apps,N/A,N/A,6/6,N/A,1/6,N/A,N/A,N/A,Female,068,muzzleloader
+EF068O2R,A,4,4,2,ND,N/A,N/A,12/20,1/1,3/4,N/A,N/A,N/A,Female,068,rifle
+EF068O3R,A,3,ND,0,no-apps,N/A,N/A,2/10,N/A,1/9,N/A,N/A,N/A,Female,068,rifle
+EF068O4R,A,0,ND,Choice-4,no-apps,N/A,N/A,9/20,N/A,1/1,N/A,N/A,N/A,Female,068,rifle
+EF068P5R,B,1,2,0,no-apps,N/A,N/A,6/13,1/1,1/1,N/A,N/A,N/A,Female,068,rifle
+EF069O1M,A,0,1,0,ND,Choice-2,Choice-3,5/14,2/2,4/6,N/A,2/6,3/10,Female,069,muzzleloader
+EF069O2R,A,1,1,0,ND,Choice-2,Choice-4,35/37,1/1,10/14,N/A,3/11,4/9,Female,069,rifle
+EF069O3R,A,0,2,Choice-4,Choice-2,Choice-3,Leftover-Choice-2,32/33,1/1,1/4,1/1,2/8,4/5,Female,069,rifle
+EF069O4R,A,Choice-2,1,Choice-2,no-apps,Choice-2,Choice-3,1/86,2/2,3/9,N/A,2/11,2/17,Female,069,rifle
+EF069P5R,B,Choice-2,Choice-2,Choice-2,Choice-2,0,Choice-2,46/216,1/19,10/26,3/3,30/30,42/83,Female,069,rifle
+EF070O1A,A,Choice-2,Choice-2,Choice-2,ND,N/A,N/A,9/51,2/43,2/10,N/A,N/A,N/A,Female,070,Archery
+EF070O1M,A,0,1,0,no-apps,N/A,N/A,4/12,2/5,1/1,N/A,N/A,N/A,Female,070,muzzleloader
+EF070O1R,A,1,1,0,ND,N/A,N/A,14/34,4/11,6/11,N/A,N/A,N/A,Female,070,rifle
+EF070O2R,A,0,2,Choice-2,0,N/A,N/A,10/55,10/10,1/10,5/5,N/A,N/A,Female,070,rifle
+EF070O3R,A,0,1,Choice-2,Choice-2,N/A,N/A,13/33,16/38,3/13,1/3,N/A,N/A,Female,070,rifle
+EF070O4R,A,1,1,0,ND,N/A,N/A,9/15,1/1,3/3,N/A,N/A,N/A,Female,070,rifle
+EF070P2R,B,Choice-2,Choice-2,Choice-3,ND,N/A,N/A,1/21,1/13,2/3,N/A,N/A,N/A,Female,070,rifle
+EF070P3R,B,0,0,0,0,N/A,N/A,8/13,23/43,1/1,2/2,N/A,N/A,Female,070,rifle
+EF070P4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,070,rifle
+EF070P5R,B,2,3,0,no-apps,N/A,N/A,5/14,1/1,2/5,N/A,N/A,N/A,Female,070,rifle
+EF071O1A,A,0,0,0,ND,N/A,N/A,31/36,7/19,21/27,N/A,N/A,N/A,Female,071,Archery
+EF071O1M,A,1,3,1,ND,N/A,N/A,1/15,5/6,2/4,N/A,N/A,N/A,Female,071,muzzleloader
+EF071O1R,A,4,4,2,1,N/A,N/A,19/24,2/5,4/5,1/1,N/A,N/A,Female,071,rifle
+EF071O2R,A,6,6,2,2,N/A,N/A,7/10,1/5,1/4,1/1,N/A,N/A,Female,071,rifle
+EF071O3R,A,4,6,1,2,N/A,N/A,2/7,1/3,1/2,1/1,N/A,N/A,Female,071,rifle
+EF071O4R,A,3,3,0,no-apps,N/A,N/A,1/4,1/2,1/3,N/A,N/A,N/A,Female,071,rifle
+EF071P1R,B,2,ND,0,ND,N/A,N/A,5/5,N/A,1/2,N/A,N/A,N/A,Female,071,rifle
+EF071P4R,B,1,2,Choice-4,ND,N/A,N/A,2/16,1/1,1/1,N/A,N/A,N/A,Female,071,rifle
+EF072O2R,A,0,3,Choice-2,ND,N/A,N/A,1/6,2/2,1/5,N/A,N/A,N/A,Female,072,rifle
+EF072O3R,A,0,2,0,0,N/A,N/A,2/2,1/1,1/1,1/2,N/A,N/A,Female,072,rifle
+EF072O4R,A,Choice-3,no-apps,ND,no-apps,N/A,N/A,5/7,N/A,N/A,N/A,N/A,N/A,Female,072,rifle
+EF072P5R,B,1,1,1,ND,N/A,N/A,4/6,1/1,6/8,N/A,N/A,N/A,Female,072,rifle
+EF073O2R,A,4,4,1,1,N/A,N/A,2/3,1/6,1/1,1/1,N/A,N/A,Female,073,rifle
+EF073O3R,A,2,4,0,no-apps,N/A,N/A,2/5,1/1,1/4,N/A,N/A,N/A,Female,073,rifle
+EF073O4R,A,Choice-2,Choice-2,0,no-apps,N/A,N/A,2/9,1/2,1/1,N/A,N/A,N/A,Female,073,rifle
+EF074O1A,A,0,0,0,no-apps,N/A,N/A,15/15,6/7,3/3,N/A,N/A,N/A,Female,074,Archery
+EF074O1M,A,0,0,1,ND,N/A,N/A,3/3,1/1,3/3,N/A,N/A,N/A,Female,074,muzzleloader
+EF074O1R,A,2,12,0,ND,N/A,N/A,8/11,1/1,3/5,N/A,N/A,N/A,Female,074,rifle
+EF074O2R,A,2,ND,ND,0,N/A,N/A,4/9,N/A,N/A,1/2,N/A,N/A,Female,074,rifle
+EF074O3R,A,1,1,ND,no-apps,N/A,N/A,3/14,1/2,N/A,N/A,N/A,N/A,Female,074,rifle
+EF074O4R,A,0,no-apps,1,no-apps,N/A,N/A,4/14,N/A,1/1,N/A,N/A,N/A,Female,074,rifle
+EF074P1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,074,rifle
+EF074P4R,B,Choice-2,ND,Choice-2,no-apps,N/A,N/A,2/13,N/A,2/2,N/A,N/A,N/A,Female,074,rifle
+EF075O1A,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,1/40,1/20,3/12,3/3,N/A,N/A,Female,075,Archery
+EF075O1M,A,0,1,0,ND,N/A,N/A,3/6,2/3,2/8,N/A,N/A,N/A,Female,075,muzzleloader
+EF075O1R,A,1,2,1,2,N/A,N/A,5/17,1/1,2/4,1/1,N/A,N/A,Female,075,rifle
+EF075O2R,A,1,2,1,0,N/A,N/A,6/21,3/9,3/3,3/3,N/A,N/A,Female,075,rifle
+EF075O3R,A,2,3,0,0,N/A,N/A,11/18,3/4,2/4,1/3,N/A,N/A,Female,075,rifle
+EF075O4R,A,2,3,0,Choice-4,N/A,N/A,7/10,1/4,1/2,1/2,N/A,N/A,Female,075,rifle
+EF075P4R,B,1,ND,Choice-4,ND,N/A,N/A,4/6,N/A,1/2,N/A,N/A,N/A,Female,075,rifle
+EF076O1M,A,0,3,0,0,Leftover-Choice-3,ND,6/12,1/1,1/1,2/3,1/1,N/A,Female,076,muzzleloader
+EF076O2R,A,0,0,Choice-2,0,Leftover-Choice-3,ND,96/99,19/43,4/9,7/7,4/4,N/A,Female,076,rifle
+EF076O3R,A,Choice-2,Choice-2,Choice-2,Choice-2,Leftover-Choice-3,ND,72/205,18/47,11/17,3/3,8/8,N/A,Female,076,rifle
+EF076O4R,A,Choice-3,Choice-3,Choice-3,Choice-2,Leftover-Choice-3,ND,20/58,2/10,5/7,1/1,3/3,N/A,Female,076,rifle
+EF077O1A,A,0,0,Choice-2,0,N/A,N/A,31/31,52/56,3/6,3/3,N/A,N/A,Female,077,Archery
+EF077O1M,A,0,1,0,ND,N/A,N/A,14/18,1/3,2/2,N/A,N/A,N/A,Female,077,muzzleloader
+EF077O1R,A,1,3,1,1,N/A,N/A,5/35,2/7,3/9,2/3,N/A,N/A,Female,077,rifle
+EF077O2R,A,2,5,1,1,N/A,N/A,3/40,5/13,2/7,2/5,N/A,N/A,Female,077,rifle
+EF077O3R,A,3,6,0,1,N/A,N/A,7/28,4/14,1/6,4/4,N/A,N/A,Female,077,rifle
+EF077O4R,A,4,4,0,ND,N/A,N/A,4/6,1/2,2/4,N/A,N/A,N/A,Female,077,rifle
+EF077P1R,B,Choice-2,0,0,no-apps,N/A,N/A,2/5,2/2,2/2,N/A,N/A,N/A,Female,077,rifle
+EF077P4R,B,1,ND,Choice-2,no-apps,N/A,N/A,3/8,N/A,2/4,N/A,N/A,N/A,Female,077,rifle
+EF079O1M,A,Choice-3,Choice-3,Choice-3,no-apps,Leftover-Choice-1,ND,4/8,1/7,3/5,N/A,1/1,N/A,Female,079,muzzleloader
+EF079O1R,A,Choice-3,Choice-3,Choice-3,Choice-2,ND,no-apps,4/20,1/11,1/3,2/2,N/A,N/A,Female,079,rifle
+EF079O2R,A,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,1/1,N/A,Female,079,rifle
+EF079O3R,A,Choice-4,Choice-3,Choice-2,0,Choice-2,no-apps,9/27,5/11,4/8,1/1,1/1,N/A,Female,079,rifle
+EF079O4R,A,Leftover,Leftover,Leftover,Leftover,Choice-3,ND,N/A,N/A,N/A,N/A,1/4,N/A,Female,079,rifle
+EF080O1M,A,0,0,Choice-2,1,N/A,N/A,22/45,2/13,1/7,1/1,N/A,N/A,Female,080,muzzleloader
+EF080O2R,A,1,1,0,2,N/A,N/A,44/55,7/10,6/18,1/1,N/A,N/A,Female,080,rifle
+EF080O3R,A,0,0,Choice-2,0,N/A,N/A,29/65,1/10,2/9,2/2,N/A,N/A,Female,080,rifle
+EF080O4R,A,Choice-2,Choice-2,Choice-4,ND,N/A,N/A,41/68,5/7,1/6,N/A,N/A,N/A,Female,080,rifle
+EF080P5R,B,0,1,Choice-2,no-apps,N/A,N/A,4/20,2/2,1/7,N/A,N/A,N/A,Female,080,rifle
+EF081O2R,A,1,1,0,0,N/A,N/A,13/78,2/11,7/22,1/3,N/A,N/A,Female,081,rifle
+EF081O3R,A,0,0,0,ND,N/A,N/A,7/71,2/8,8/23,N/A,N/A,N/A,Female,081,rifle
+EF081O4R,A,Choice-2,Choice-2,Choice-3,1,N/A,N/A,22/69,1/1,2/5,1/1,N/A,N/A,Female,081,rifle
+EF081P5R,B,0,0,0,no-apps,N/A,N/A,6/10,1/2,2/3,N/A,N/A,N/A,Female,081,rifle
+EF082O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,082,muzzleloader
+EF082O1R,B,Choice-2,0,0,ND,N/A,N/A,2/64,2/2,2/2,N/A,N/A,N/A,Female,082,rifle
+EF082O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,082,rifle
+EF082O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,082,rifle
+EF082O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,082,rifle
+EF083O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,083,muzzleloader
+EF083O4R,A,Choice-2,Choice-2,ND,no-apps,0,Leftover-Choice-1,4/48,6/6,N/A,N/A,2/2,2/3,Female,083,rifle
+EF084W1R,A,6,no-apps,ND,no-apps,N/A,N/A,3/3,N/A,N/A,N/A,N/A,N/A,Female,084,rifle
+EF084W2R,A,3,no-apps,3,no-apps,N/A,N/A,5/18,N/A,1/1,N/A,N/A,N/A,Female,084,rifle
+EF084W3R,A,4,no-apps,ND,no-apps,N/A,N/A,4/8,N/A,N/A,N/A,N/A,N/A,Female,084,rifle
+EF084W5R,A,3,no-apps,ND,no-apps,N/A,N/A,2/9,N/A,N/A,N/A,N/A,N/A,Female,084,rifle
+EF085L1R,B,Choice-2,1,0,no-apps,N/A,N/A,8/60,1/1,3/3,N/A,N/A,N/A,Female,085,rifle
+EF085O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,085,muzzleloader
+EF085O2R,B,0,0,0,Choice-2,N/A,N/A,14/33,5/8,2/3,2/2,N/A,N/A,Female,085,rifle
+EF085O3R,B,0,0,Choice-2,0,N/A,N/A,22/28,7/11,1/4,1/1,N/A,N/A,Female,085,rifle
+EF085O4R,B,Choice-4,Choice-3,Choice-3,no-apps,N/A,N/A,2/26,2/5,2/2,N/A,N/A,N/A,Female,085,rifle
+EF085P5R,B,0,0,Choice-3,ND,N/A,N/A,51/139,1/8,1/7,N/A,N/A,N/A,Female,085,rifle
+EF085P6R,B,0,0,Choice-2,0,N/A,N/A,80/146,5/8,7/20,4/4,N/A,N/A,Female,085,rifle
+EF085W1R,A,5,no-apps,no-apps,no-apps,N/A,N/A,4/4,N/A,N/A,N/A,N/A,N/A,Female,085,rifle
+EF086O1M,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,086,muzzleloader
+EF086O2R,B,0,0,0,0,N/A,N/A,48/58,4/7,6/6,1/1,N/A,N/A,Female,086,rifle
+EF086O3R,B,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,38/69,4/4,3/3,N/A,N/A,N/A,Female,086,rifle
+EF086O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,086,rifle
+EF086P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,086,rifle
+EF104O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,104,muzzleloader
+EF104P5R,C,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Female,104,rifle
+EF104W1R,A,6,no-apps,ND,no-apps,N/A,N/A,6/11,N/A,N/A,N/A,N/A,N/A,Female,104,rifle
+EF104W2R,A,5,no-apps,5,no-apps,N/A,N/A,4/8,N/A,1/1,N/A,N/A,N/A,Female,104,rifle
+EF128L1R,C,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,128,rifle
+EF131O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131P2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131P3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131P4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF131P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,131,rifle
+EF133L1R,B,Choice-2,0,Choice-3,no-apps,N/A,N/A,3/25,7/7,1/1,N/A,N/A,N/A,Female,133,rifle
+EF133O1M,B,Choice-3,no-apps,Choice-3,Choice-2,N/A,N/A,1/2,N/A,1/1,1/1,N/A,N/A,Female,133,muzzleloader
+EF142L1R,B,1,ND,0,ND,N/A,N/A,11/20,N/A,3/6,N/A,N/A,N/A,Female,142,rifle
+EF161O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,161,rifle
+EF161O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,161,rifle
+EF181L1R,B,1,ND,0,no-apps,N/A,N/A,1/32,N/A,1/3,N/A,N/A,N/A,Female,181,rifle
+EF181O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,181,rifle
+EF181O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,181,rifle
+EF181O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,181,rifle
+EF181P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,181,rifle
+EF191L1R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Female,191,rifle
+EF191O2R,A,Choice-4,0,Choice-4,ND,ND,ND,8/19,1/1,1/3,N/A,N/A,N/A,Female,191,rifle
+EF191O3R,A,Choice-3,ND,Choice-3,no-apps,Leftover-Choice-2,ND,1/15,N/A,1/1,N/A,1/1,N/A,Female,191,rifle
+EF191O4R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Female,191,rifle
+EF191P5R,B,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,2/2,N/A,Female,191,rifle
+EF201O1M,B,4,12,1,no-apps,ND,no-apps,2/3,1/1,1/1,N/A,N/A,N/A,Female,201,muzzleloader
+EF201O1R,B,2,2,0,0,Choice-2,Choice-3,10/10,1/2,2/8,1/1,3/10,1/5,Female,201,rifle
+EF201O2R,B,Choice-2,3,Choice-2,0,Choice-3,ND,3/17,1/1,2/8,3/3,1/8,N/A,Female,201,rifle
+EF201O3R,B,0,0,0,0,ND,ND,15/16,1/1,4/4,2/2,N/A,N/A,Female,201,rifle
+EF201O4R,B,Choice-2,Choice-2,Choice-2,Choice-2,Choice-3,no-apps,21/70,1/3,2/6,1/1,2/3,N/A,Female,201,rifle
+EF211L1R,B,3,ND,ND,1,N/A,N/A,5/23,N/A,N/A,2/3,N/A,N/A,Female,211,rifle
+EF211W1R,A,3,no-apps,5,no-apps,N/A,N/A,2/18,N/A,1/1,N/A,N/A,N/A,Female,211,rifle
+EF214O2R,A,0,1,0,0,N/A,N/A,3/4,1/2,1/1,1/1,N/A,N/A,Female,214,rifle
+EF214O3R,A,Choice-2,0,ND,no-apps,N/A,N/A,2/3,1/1,N/A,N/A,N/A,N/A,Female,214,rifle
+EF214O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,214,rifle
+EF214W1R,A,1,no-apps,ND,no-apps,N/A,N/A,2/2,N/A,N/A,N/A,N/A,N/A,Female,214,rifle
+EF214W2R,A,2,no-apps,2,no-apps,N/A,N/A,4/18,N/A,2/3,N/A,N/A,N/A,Female,214,rifle
+EF214W3R,A,2,no-apps,ND,no-apps,N/A,N/A,1/14,N/A,N/A,N/A,N/A,N/A,Female,214,rifle
+EF214W4R,A,2,no-apps,2,no-apps,N/A,N/A,4/10,N/A,1/2,N/A,N/A,N/A,Female,214,rifle
+EF231O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,231,rifle
+EF231O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,231,rifle
+EF231O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,231,rifle
+EF301W1R,A,Choice-2,no-apps,1,no-apps,N/A,N/A,1/26,N/A,2/2,N/A,N/A,N/A,Female,301,rifle
+EF301W2R,A,Choice-2,no-apps,Choice-2,no-apps,N/A,N/A,4/17,N/A,2/2,N/A,N/A,N/A,Female,301,rifle
+EF301W3R,A,1,no-apps,1,no-apps,N/A,N/A,3/6,N/A,1/1,N/A,N/A,N/A,Female,301,rifle
+EF361L1R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,361,rifle
+EF371L1R,B,0,ND,Choice-2,no-apps,N/A,N/A,7/7,N/A,1/1,N/A,N/A,N/A,Female,371,rifle
+EF371O1R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,371,rifle
+EF371O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,371,rifle
+EF371O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,371,rifle
+EF371O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,371,rifle
+EF371P5R,B,Choice-3,Choice-2,no-apps,no-apps,N/A,N/A,2/2,1/1,N/A,N/A,N/A,N/A,Female,371,rifle
+EF391O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,391,muzzleloader
+EF391P5R,C,Choice-2,Choice-2,Choice-2,no-apps,Leftover-Choice-3,ND,45/95,1/2,1/5,N/A,2/2,N/A,Female,391,rifle
+EF411O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,411,rifle
+EF411O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,411,rifle
+EF411O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,411,rifle
+EF411P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,411,rifle
+EF421O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,421,rifle
+EF421O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,421,rifle
+EF421O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,421,rifle
+EF421P5R,B,Choice-2,Choice-2,Choice-2,0,N/A,N/A,99/154,17/37,13/16,1/1,N/A,N/A,Female,421,rifle
+EF441W1R,A,2,no-apps,2,no-apps,N/A,N/A,6/9,N/A,1/1,N/A,N/A,N/A,Female,441,rifle
+EF441W3R,A,1,no-apps,ND,no-apps,N/A,N/A,2/18,N/A,N/A,N/A,N/A,N/A,Female,441,rifle
+EF444O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,444,rifle
+EF444O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,444,rifle
+EF444O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,444,rifle
+EF444P5R,B,0,0,0,2,N/A,N/A,38/38,4/4,3/3,2/2,N/A,N/A,Female,444,rifle
+EF461O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,461,muzzleloader
+EF461O1R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,461,rifle
+EF461O2R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,461,rifle
+EF461O3R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,461,rifle
+EF461O4R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Female,461,rifle
+EF461P5R,C,0,no-apps,0,no-apps,0,Leftover-Choice-1,11/15,N/A,4/4,N/A,2/2,1/1,Female,461,rifle
+EF471O2R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,471,rifle
+EF471O3R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,471,rifle
+EF471O4R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,471,rifle
+EF471P5R,B,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,471,rifle
+EF481O1M,A,Choice-3,Choice-2,Choice-2,no-apps,no-apps,no-apps,2/8,1/3,2/3,N/A,N/A,N/A,Female,481,muzzleloader
+EF481O2R,A,0,0,0,0,Leftover-Choice-2,ND,47/58,4/9,11/15,1/2,1/1,N/A,Female,481,rifle
+EF481O3R,A,Choice-2,0,0,Choice-2,ND,ND,1/48,3/3,2/2,1/2,N/A,N/A,Female,481,rifle
+EF481O4R,A,Choice-2,Choice-2,0,no-apps,ND,ND,11/18,1/1,1/1,N/A,N/A,N/A,Female,481,rifle
+EF481P5R,B,0,ND,Choice-2,no-apps,Leftover-Choice-1,Leftover-Choice-2,14/34,N/A,1/7,N/A,2/2,2/2,Female,481,rifle
+EF500L1R,B,0,ND,0,no-apps,ND,ND,6/6,N/A,1/1,N/A,N/A,N/A,Female,500,rifle
+EF500O1M,B,Choice-2,Choice-2,Choice-2,0,no-apps,no-apps,6/63,3/19,9/23,1/1,N/A,N/A,Female,500,muzzleloader
+EF500O2R,B,Choice-2,Choice-2,Choice-4,0,Leftover-Choice-3,ND,1/103,1/9,1/4,3/3,1/1,N/A,Female,500,rifle
+EF500O3R,B,Choice-2,Choice-2,Choice-2,ND,Leftover-Choice-3,ND,87/157,2/8,7/11,N/A,2/2,N/A,Female,500,rifle
+EF500O4R,B,Choice-3,no-apps,ND,no-apps,Leftover-Choice-3,ND,1/38,N/A,N/A,N/A,2/2,N/A,Female,500,rifle
+EF500P5R,B,1,ND,0,no-apps,0,Leftover-Choice-3,10/14,N/A,1/1,N/A,2/3,1/3,Female,500,rifle
+EF501L1R,B,2,2,0,ND,Leftover-Choice-1,no-apps,4/4,1/1,1/2,N/A,1/1,N/A,Female,501,rifle
+EF501O1M,B,Choice-2,0,0,no-apps,no-apps,no-apps,1/60,2/2,6/7,N/A,N/A,N/A,Female,501,muzzleloader
+EF501O2R,B,1,ND,1,1,Leftover-Choice-3,Leftover-Choice-3,12/44,N/A,8/9,1/1,2/5,3/4,Female,501,rifle
+EF501O3R,B,0,4,0,0,Leftover-Choice-3,ND,9/23,1/1,4/4,1/1,2/2,N/A,Female,501,rifle
+EF501O4R,B,Choice-2,ND,Choice-2,no-apps,Leftover-Choice-2,ND,2/41,N/A,1/8,N/A,2/2,N/A,Female,501,rifle
+EF501P5R,B,0,2,0,no-apps,0,Leftover-Choice-1,15/19,1/1,2/2,N/A,3/4,1/4,Female,501,rifle
+EF511O1R,A,0,1,0,no-apps,N/A,N/A,14/32,1/1,3/6,N/A,N/A,N/A,Female,511,rifle
+EF511O2R,A,0,ND,0,no-apps,N/A,N/A,6/62,N/A,8/10,N/A,N/A,N/A,Female,511,rifle
+EF511O3R,A,0,ND,Choice-3,no-apps,N/A,N/A,17/25,N/A,1/4,N/A,N/A,N/A,Female,511,rifle
+EF511O4R,A,Choice-2,no-apps,0,no-apps,N/A,N/A,4/23,N/A,1/1,N/A,N/A,N/A,Female,511,rifle
+EF511P5R,B,Choice-2,0,Choice-2,no-apps,N/A,N/A,37/61,3/3,5/10,N/A,N/A,N/A,Female,511,rifle
+EF521O1M,A,0,1,Choice-2,Choice-2,N/A,N/A,3/17,4/8,1/3,1/4,N/A,N/A,Female,521,muzzleloader
+EF521O1R,A,1,1,Choice-2,ND,N/A,N/A,21/21,8/17,2/5,N/A,N/A,N/A,Female,521,rifle
+EF521O2R,A,1,4,2,1,N/A,N/A,1/18,1/5,1/1,1/3,N/A,N/A,Female,521,rifle
+EF521O3R,A,1,3,1,0,N/A,N/A,8/10,1/3,1/1,2/2,N/A,N/A,Female,521,rifle
+EF521O4R,A,0,ND,Choice-2,no-apps,N/A,N/A,4/6,N/A,1/1,N/A,N/A,N/A,Female,521,rifle
+EF551O1M,A,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,4/79,5/22,1/8,N/A,N/A,N/A,Female,551,muzzleloader
+EF551O1R,A,0,0,0,0,N/A,N/A,4/30,1/3,8/8,1/1,N/A,N/A,Female,551,rifle
+EF551O2R,A,1,1,0,0,N/A,N/A,26/55,7/16,7/18,1/3,N/A,N/A,Female,551,rifle
+EF551O3R,A,1,1,Choice-2,0,N/A,N/A,25/44,3/6,4/12,1/1,N/A,N/A,Female,551,rifle
+EF551O4R,A,0,ND,ND,no-apps,N/A,N/A,2/10,N/A,N/A,N/A,N/A,N/A,Female,551,rifle
+EF561O1M,A,Choice-2,Choice-2,0,no-apps,0,ND,12/36,1/5,2/2,N/A,1/1,N/A,Female,561,muzzleloader
+EF561O2R,A,1,ND,0,0,Leftover-Choice-2,ND,17/25,N/A,2/4,3/3,1/1,N/A,Female,561,rifle
+EF561O3R,A,Choice-2,no-apps,0,no-apps,Leftover-Choice-2,ND,3/21,N/A,1/1,N/A,1/1,N/A,Female,561,rifle
+EF561O4R,A,Choice-4,Choice-4,Choice-3,no-apps,no-apps,no-apps,1/10,1/1,1/2,N/A,N/A,N/A,Female,561,rifle
+EF581P5R,B,Choice-2,0,Choice-2,no-apps,N/A,N/A,32/83,14/14,8/16,N/A,N/A,N/A,Female,581,rifle
+EF591L1R,A,2,2,1,no-apps,N/A,N/A,20/24,1/1,4/10,N/A,N/A,N/A,Female,591,rifle
+EF681O2R,A,3,3,0,ND,N/A,N/A,8/9,3/3,1/4,N/A,N/A,N/A,Female,681,rifle
+EF681O3R,A,2,2,0,no-apps,N/A,N/A,3/15,1/1,3/7,N/A,N/A,N/A,Female,681,rifle
+EF681O4R,A,0,0,1,no-apps,N/A,N/A,6/7,2/2,1/1,N/A,N/A,N/A,Female,681,rifle
+EF682O1M,B,Leftover,Leftover,Leftover,Leftover,9,9,N/A,N/A,N/A,N/A,1/3,1/3,Female,682,muzzleloader
+EF711O2R,A,6,6,2,ND,N/A,N/A,5/19,1/5,1/3,N/A,N/A,N/A,Female,711,rifle
+EF711O3R,A,6,6,2,ND,N/A,N/A,6/15,1/4,1/1,N/A,N/A,N/A,Female,711,rifle
+EF711O4R,A,5,ND,Choice-2,ND,N/A,N/A,6/10,N/A,1/7,N/A,N/A,N/A,Female,711,rifle
+EF741O2R,A,Choice-4,no-apps,Choice-3,no-apps,N/A,N/A,1/3,N/A,1/1,N/A,N/A,N/A,Female,741,rifle
+EF741O3R,A,Choice-2,0,no-apps,0,N/A,N/A,1/6,1/1,N/A,1/1,N/A,N/A,Female,741,rifle
+EF741O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Female,741,rifle
+EF741P5R,B,2,2,1,ND,N/A,N/A,5/14,1/2,4/5,N/A,N/A,N/A,Female,741,rifle
+EF751P5R,B,1,ND,Choice-3,no-apps,N/A,N/A,15/25,N/A,1/3,N/A,N/A,N/A,Female,751,rifle
+EF851L1R,B,Choice-2,ND,0,2,N/A,N/A,4/21,N/A,1/1,1/1,N/A,N/A,Female,851,rifle
+EF851L2R,B,Choice-2,ND,0,no-apps,N/A,N/A,3/29,N/A,1/1,N/A,N/A,N/A,Female,851,rifle
+EF851L3R,B,Choice-2,0,Choice-2,0,N/A,N/A,3/36,5/5,4/11,1/1,N/A,N/A,Female,851,rifle
+EF851W1R,A,5,no-apps,ND,no-apps,N/A,N/A,6/13,N/A,N/A,N/A,N/A,N/A,Female,851,rifle
+EF851W2R,A,5,no-apps,ND,no-apps,N/A,N/A,3/3,N/A,N/A,N/A,N/A,N/A,Female,851,rifle
+EF851W4R,A,no-apps,no-apps,3,no-apps,N/A,N/A,N/A,N/A,2/3,N/A,N/A,N/A,Female,851,rifle
+EF851W6R,A,5,no-apps,ND,no-apps,N/A,N/A,2/8,N/A,N/A,N/A,N/A,N/A,Female,851,rifle
+EM001O1M,A,17,ND,ND,ND,ND,ND,2/2,N/A,N/A,N/A,N/A,N/A,Male,001,muzzleloader
+EM002O1M,A,25,32,ND,ND,4,1,3/3,1/1,N/A,N/A,1/1,1/4,Male,002,muzzleloader
+EM003O1R,A,0,2,0,2,N/A,N/A,12/210,61/103,1/21,2/3,N/A,N/A,Male,003,rifle
+EM003O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,003,rifle
+EM003O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,003,rifle
+EM003O4R,A,0,Choice-2,Choice-2,0,N/A,N/A,14/14,1/31,1/15,2/2,N/A,N/A,Male,003,rifle
+EM004O4R,A,0,0,ND,0,N/A,N/A,10/10,16/47,N/A,4/7,N/A,N/A,Male,004,rifle
+EM005O4R,A,Choice-2,Choice-3,Choice-2,no-apps,N/A,N/A,5/5,1/4,1/1,N/A,N/A,N/A,Male,005,rifle
+EM007O1M,A,0,1,0,1,Leftover-Choice-1,Leftover-Choice-2,82/207,14/84,6/15,1/2,4/5,1/1,Male,007,muzzleloader
+EM007O1R,A,0,0,0,0,Leftover-Choice-2,ND,58/221,22/57,7/33,1/2,2/2,N/A,Male,007,rifle
+EM007O2R,A,Choice-2,Choice-2,Choice-2,0,Leftover-Choice-3,ND,123/488,24/91,8/47,2/2,2/2,N/A,Male,007,rifle
+EM007O3R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-2,ND,N/A,N/A,N/A,N/A,2/2,N/A,Male,007,rifle
+EM007O4R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,007,rifle
+EM009O1R,A,Leftover,Leftover,Leftover,Leftover,0,0,N/A,N/A,N/A,N/A,5/9,1/4,Male,009,rifle
+EM009O2R,A,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,3/4,N/A,Male,009,rifle
+EM009O3R,A,Leftover,Leftover,Leftover,Leftover,0,0,N/A,N/A,N/A,N/A,3/7,2/4,Male,009,rifle
+EM009O4R,A,Leftover,Leftover,Leftover,Leftover,1,Leftover-Choice-1,N/A,N/A,N/A,N/A,4/4,1/1,Male,009,rifle
+EM010O1M,A,24,31,ND,ND,ND,ND,2/2,1/1,N/A,N/A,N/A,N/A,Male,010,muzzleloader
+EM011O1R,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,402/911,399/838,34/84,11/20,N/A,N/A,Male,011,rifle
+EM011O2R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,011,rifle
+EM011O3R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,011,rifle
+EM011O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,011,rifle
+EM012O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,012,rifle
+EM014O1R,A,0,0,0,ND,N/A,N/A,50/53,3/39,5/5,N/A,N/A,N/A,Male,014,rifle
+EM014O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,014,rifle
+EM019O1R,A,0,0,0,0,0,ND,52/89,9/30,5/9,1/1,5/5,N/A,Male,019,rifle
+EM019O2R,A,Choice-3,Choice-3,Choice-3,0,Leftover-Choice-1,ND,8/51,4/9,1/4,1/1,3/3,N/A,Male,019,rifle
+EM019O3R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-1,ND,N/A,N/A,N/A,N/A,2/2,N/A,Male,019,rifle
+EM019O4R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,019,rifle
+EM020L1R,A,5,8,5,ND,0,0,7/31,1/4,2/3,N/A,3/11,5/9,Male,020,rifle
+EM020L2R,A,6,12,ND,ND,0,0,4/21,2/2,N/A,N/A,1/7,5/6,Male,020,rifle
+EM020O1A,A,4,7,ND,no-apps,Leftover-Choice-1,Leftover-Choice-1,1/8,1/6,N/A,N/A,1/4,1/3,Male,020,Archery
+EM020O1M,A,3,14,4,ND,0,Leftover-Choice-2,2/18,2/4,2/2,N/A,3/4,1/4,Male,020,muzzleloader
+EM020O1R,A,5,16,6,ND,0,Leftover-Choice-1,1/3,1/1,2/2,N/A,1/3,1/1,Male,020,rifle
+EM020O2R,A,5,6,5,ND,0,Leftover-Choice-2,9/12,2/2,2/2,N/A,2/3,1/1,Male,020,rifle
+EM020O3R,A,5,5,5,ND,1,0,6/6,2/2,2/2,N/A,1/1,2/6,Male,020,rifle
+EM020O4R,A,4,5,4,no-apps,0,0,13/15,2/3,1/1,N/A,2/7,2/6,Male,020,rifle
+EM021O1R,A,0,0,0,0,N/A,N/A,121/128,139/253,16/16,14/18,N/A,N/A,Male,021,rifle
+EM021O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,021,rifle
+EM025O4R,A,Choice-4,Choice-3,no-apps,ND,N/A,N/A,2/4,6/9,N/A,N/A,N/A,N/A,Male,025,rifle
+EM026O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,026,rifle
+EM029O1M,A,2,2,2,2,Leftover-Choice-1,ND,17/17,4/4,1/2,1/1,1/1,N/A,Male,029,muzzleloader
+EM029O1R,A,2,ND,2,no-apps,0,Leftover-Choice-1,1/5,N/A,1/3,N/A,1/1,1/1,Male,029,rifle
+EM029O2R,A,2,ND,1,no-apps,Leftover-Choice-3,Leftover-Choice-3,7/7,N/A,1/1,N/A,1/2,1/2,Male,029,rifle
+EM029O3R,A,0,ND,1,no-apps,no-apps,no-apps,4/14,N/A,1/1,N/A,N/A,N/A,Male,029,rifle
+EM029O4R,A,0,ND,ND,no-apps,no-apps,no-apps,6/10,N/A,N/A,N/A,N/A,N/A,Male,029,rifle
+EM033O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,033,rifle
+EM034O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,034,rifle
+EM035O1M,A,Choice-2,Choice-2,0,0,N/A,N/A,43/95,13/45,5/5,1/1,N/A,N/A,Male,035,muzzleloader
+EM038O1M,A,0,2,1,no-apps,N/A,N/A,17/21,4/4,2/2,N/A,N/A,N/A,Male,038,muzzleloader
+EM038O1R,A,1,1,ND,no-apps,N/A,N/A,2/10,2/2,N/A,N/A,N/A,N/A,Male,038,rifle
+EM038O4R,A,Choice-2,0,no-apps,no-apps,N/A,N/A,3/8,1/1,N/A,N/A,N/A,N/A,Male,038,rifle
+EM039O1M,A,0,4,1,4,Leftover-Choice-2,ND,5/32,5/8,3/3,1/1,1/1,N/A,Male,039,muzzleloader
+EM039O1R,A,1,1,1,2,Leftover-Choice-2,ND,13/31,3/10,1/2,1/1,1/1,N/A,Male,039,rifle
+EM039O2R,A,0,0,0,1,Leftover-Choice-2,Leftover-Choice-3,9/17,2/6,3/4,1/1,4/5,3/3,Male,039,rifle
+EM039O3R,A,0,0,0,3,Leftover-Choice-3,ND,23/23,6/6,2/2,1/1,2/2,N/A,Male,039,rifle
+EM039O4R,A,0,1,ND,ND,0,0,10/15,1/1,N/A,N/A,2/4,2/4,Male,039,rifle
+EM041O1M,A,0,0,0,0,N/A,N/A,185/185,93/184,8/8,5/8,N/A,N/A,Male,041,muzzleloader
+EM041O1R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,61/326,26/240,12/35,23/23,N/A,N/A,Male,041,rifle
+EM041O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,041,rifle
+EM043O1M,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,15/27,38/59,1/1,2/2,N/A,N/A,Male,043,muzzleloader
+EM044O1A,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,117/397,67/321,3/7,1/3,N/A,N/A,Male,044,Archery
+EM044O1M,A,0,0,0,0,N/A,N/A,82/82,22/64,3/3,4/7,N/A,N/A,Male,044,muzzleloader
+EM044O1R,A,1,2,1,ND,N/A,N/A,38/57,12/30,2/6,N/A,N/A,N/A,Male,044,rifle
+EM044O4R,A,Choice-2,Choice-2,Choice-2,ND,N/A,N/A,13/31,1/7,1/2,N/A,N/A,N/A,Male,044,rifle
+EM045O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,045,rifle
+EM046O1M,A,1,2,2,no-apps,no-apps,no-apps,10/20,3/4,1/1,N/A,N/A,N/A,Male,046,muzzleloader
+EM046O1R,A,1,3,2,ND,Leftover-Choice-1,Leftover-Choice-2,6/14,5/5,1/2,N/A,1/1,1/1,Male,046,rifle
+EM046O2R,A,0,0,0,no-apps,Leftover-Choice-3,ND,9/21,1/6,1/3,N/A,1/1,N/A,Male,046,rifle
+EM046O3R,A,Choice-2,0,ND,no-apps,0,ND,3/25,1/1,N/A,N/A,1/1,N/A,Male,046,rifle
+EM046O4R,A,Choice-4,0,Choice-3,no-apps,Leftover-Choice-1,ND,1/5,1/1,2/2,N/A,1/1,N/A,Male,046,rifle
+EM047O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,047,rifle
+EM048O1M,A,2,6,3,ND,Leftover-Choice-1,no-apps,13/13,1/7,1/1,N/A,1/1,N/A,Male,048,muzzleloader
+EM048O1R,A,3,6,4,6,Leftover-Choice-1,ND,6/28,4/23,2/2,1/1,2/2,N/A,Male,048,rifle
+EM048O2R,A,3,5,ND,ND,0,Leftover-Choice-1,7/11,2/12,N/A,N/A,2/2,2/2,Male,048,rifle
+EM048O3R,A,2,4,2,no-apps,Leftover-Choice-3,no-apps,3/4,1/1,1/1,N/A,1/1,N/A,Male,048,rifle
+EM048O4R,A,0,1,ND,no-apps,no-apps,no-apps,3/6,1/1,N/A,N/A,N/A,N/A,Male,048,rifle
+EM049O1M,A,7,16,ND,ND,Leftover-Choice-1,Leftover-Choice-3,27/31,1/5,N/A,N/A,4/6,1/1,Male,049,muzzleloader
+EM049O1R,A,10,17,ND,ND,0,Leftover-Choice-1,29/35,1/6,N/A,N/A,7/10,1/1,Male,049,rifle
+EM049O2R,A,5,8,ND,ND,Leftover-Choice-1,Leftover-Choice-1,13/39,3/9,N/A,N/A,2/4,2/3,Male,049,rifle
+EM049O3R,A,3,5,3,no-apps,Leftover-Choice-1,Leftover-Choice-2,6/28,2/9,1/3,N/A,2/3,1/1,Male,049,rifle
+EM049O4R,A,3,5,3,ND,0,Leftover-Choice-3,5/8,1/2,1/2,N/A,2/2,1/1,Male,049,rifle
+EM050O1M,A,0,1,1,no-apps,Choice-3,Leftover-Choice-3,6/17,1/6,1/1,N/A,1/4,1/1,Male,050,muzzleloader
+EM050O1R,A,2,2,3,ND,1,0,5/26,1/6,1/1,N/A,3/4,3/6,Male,050,rifle
+EM050O2R,A,1,1,1,2,Choice-2,Leftover-Choice-1,14/43,1/8,2/6,1/1,2/3,2/2,Male,050,rifle
+EM050O3R,A,1,2,2,no-apps,0,Leftover-Choice-1,3/40,2/5,1/1,N/A,3/12,2/2,Male,050,rifle
+EM050O4R,A,1,1,1,ND,1,Leftover-Choice-2,11/21,1/2,2/2,N/A,3/3,1/2,Male,050,rifle
+EM051O1M,A,1,2,2,no-apps,0,Leftover-Choice-2,10/21,2/10,1/1,N/A,1/3,1/2,Male,051,muzzleloader
+EM051O1R,A,1,1,1,2,0,Leftover-Choice-1,13/19,1/2,2/3,1/1,4/8,1/3,Male,051,rifle
+EM051O2R,A,1,1,0,ND,0,Leftover-Choice-2,23/23,2/2,1/1,N/A,3/5,1/3,Male,051,rifle
+EM051O3R,A,0,0,0,ND,Leftover-Choice-1,Leftover-Choice-2,3/14,3/5,3/4,N/A,1/3,1/3,Male,051,rifle
+EM051O4R,A,0,1,ND,no-apps,0,Leftover-Choice-1,5/22,1/1,N/A,N/A,2/2,2/5,Male,051,rifle
+EM053O1M,A,0,0,ND,0,N/A,N/A,23/25,32/36,N/A,1/1,N/A,N/A,Male,053,muzzleloader
+EM053O1R,A,0,1,0,1,N/A,N/A,31/31,7/29,2/2,1/1,N/A,N/A,Male,053,rifle
+EM053O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,053,rifle
+EM054O1M,A,0,6,no-apps,ND,N/A,N/A,5/15,4/12,N/A,N/A,N/A,N/A,Male,054,muzzleloader
+EM054O1R,A,0,2,0,4,N/A,N/A,96/98,20/26,9/10,1/1,N/A,N/A,Male,054,rifle
+EM054O4R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,23/102,4/26,1/2,1/2,N/A,N/A,Male,054,rifle
+EM055O1M,A,1,6,2,ND,N/A,N/A,24/34,5/17,1/1,N/A,N/A,N/A,Male,055,muzzleloader
+EM055O1R,A,0,2,1,2,N/A,N/A,12/101,6/49,3/3,3/4,N/A,N/A,Male,055,rifle
+EM055O4R,A,Choice-2,0,0,no-apps,N/A,N/A,4/40,7/7,3/3,N/A,N/A,N/A,Male,055,rifle
+EM056O1M,A,0,1,0,ND,ND,no-apps,6/16,5/12,1/1,N/A,N/A,N/A,Male,056,muzzleloader
+EM056O1R,A,1,1,1,ND,0,Leftover-Choice-1,13/14,3/3,1/1,N/A,4/7,1/1,Male,056,rifle
+EM056O2R,A,0,0,0,ND,0,Leftover-Choice-3,1/28,1/4,1/5,N/A,4/4,1/1,Male,056,rifle
+EM056O3R,A,0,0,0,0,Leftover-Choice-2,ND,11/21,2/8,3/3,1/1,2/2,N/A,Male,056,rifle
+EM056O4R,A,Choice-2,1,0,no-apps,ND,ND,11/26,3/3,1/1,N/A,N/A,N/A,Male,056,rifle
+EM057O1M,A,1,4,1,ND,0,Choice-3,8/38,9/20,1/4,N/A,3/9,2/3,Male,057,muzzleloader
+EM057O1R,A,3,5,3,ND,2,1,10/41,3/28,1/3,N/A,2/12,2/5,Male,057,rifle
+EM057O2R,A,3,3,3,ND,1,0,28/38,1/24,2/2,N/A,4/9,4/13,Male,057,rifle
+EM057O3R,A,3,3,3,ND,1,Choice-2,34/48,5/23,1/1,N/A,7/9,1/16,Male,057,rifle
+EM057O4R,A,2,3,2,3,1,Choice-2,24/26,6/8,3/4,1/1,7/8,4/11,Male,057,rifle
+EM059O1M,A,0,0,0,0,N/A,N/A,37/60,12/18,2/2,2/2,N/A,N/A,Male,059,muzzleloader
+EM059O1R,A,0,0,0,1,N/A,N/A,40/52,7/14,5/5,1/1,N/A,N/A,Male,059,rifle
+EM059O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,059,rifle
+EM060O1M,A,Choice-2,0,ND,0,N/A,N/A,8/14,2/2,N/A,1/1,N/A,N/A,Male,060,muzzleloader
+EM060O1R,A,Choice-2,0,0,1,N/A,N/A,3/12,18/18,2/2,1/1,N/A,N/A,Male,060,rifle
+EM061O1M,A,17,28,ND,ND,1,0,11/15,4/7,N/A,N/A,4/6,3/4,Male,061,muzzleloader
+EM061O1R,A,13,25,ND,ND,0,Choice-2,17/41,6/6,N/A,N/A,1/19,2/9,Male,061,rifle
+EM061O2R,A,10,24,ND,ND,0,Leftover-Choice-1,33/58,13/13,N/A,N/A,2/11,4/7,Male,061,rifle
+EM061O3R,A,9,24,ND,ND,1,1,3/11,2/4,N/A,N/A,3/11,3/6,Male,061,rifle
+EM061O4R,A,9,25,ND,ND,0,Choice-2,3/15,4/13,N/A,N/A,2/2,2/8,Male,061,rifle
+EM062O1M,A,0,2,0,ND,N/A,N/A,33/67,4/16,2/3,N/A,N/A,N/A,Male,062,muzzleloader
+EM062O1R,A,0,1,0,1,N/A,N/A,125/129,20/85,18/18,2/4,N/A,N/A,Male,062,rifle
+EM063O1M,A,0,0,0,0,N/A,N/A,11/11,8/10,1/1,1/1,N/A,N/A,Male,063,muzzleloader
+EM063O1R,A,Choice-2,Choice-2,0,0,N/A,N/A,4/52,6/60,1/1,3/3,N/A,N/A,Male,063,rifle
+EM063O4R,A,0,0,ND,0,N/A,N/A,8/8,3/5,N/A,2/2,N/A,N/A,Male,063,rifle
+EM064O1M,A,0,0,0,ND,N/A,N/A,37/37,22/36,6/6,N/A,N/A,N/A,Male,064,muzzleloader
+EM066O1M,A,6,21,ND,ND,Leftover-Choice-1,Leftover-Choice-1,13/16,2/4,N/A,N/A,1/5,4/5,Male,066,muzzleloader
+EM066O1R,A,2,7,2,ND,0,Leftover-Choice-1,54/86,7/30,1/8,N/A,22/36,12/14,Male,066,rifle
+EM066O2R,A,1,4,1,4,Choice-2,Leftover-Choice-3,62/110,5/27,6/10,1/4,4/16,1/7,Male,066,rifle
+EM066O3R,A,0,3,0,ND,Leftover-Choice-1,Leftover-Choice-2,9/49,11/28,1/4,N/A,1/8,5/5,Male,066,rifle
+EM066O4R,A,1,3,1,ND,Choice-2,Choice-2,15/19,2/13,3/3,N/A,1/9,3/8,Male,066,rifle
+EM067O1M,A,2,11,ND,ND,2,Leftover-Choice-2,6/15,2/2,N/A,N/A,3/3,2/3,Male,067,muzzleloader
+EM067O1R,A,0,3,0,5,Leftover-Choice-1,Leftover-Choice-1,33/88,17/38,1/4,1/1,3/16,6/6,Male,067,rifle
+EM067O2R,A,0,2,1,ND,Leftover-Choice-1,Leftover-Choice-3,28/89,22/25,4/4,N/A,1/5,7/7,Male,067,rifle
+EM067O3R,A,1,2,1,ND,Choice-2,Leftover-Choice-2,41/48,16/17,3/3,N/A,5/18,3/4,Male,067,rifle
+EM067O4R,A,1,1,3,ND,Choice-3,Leftover-Choice-1,12/28,2/3,1/1,N/A,1/8,3/6,Male,067,rifle
+EM068O1M,A,0,1,0,ND,N/A,N/A,31/32,13/14,1/1,N/A,N/A,N/A,Male,068,muzzleloader
+EM068O1R,A,Choice-2,Choice-2,0,0,N/A,N/A,3/188,2/94,14/14,8/8,N/A,N/A,Male,068,rifle
+EM068O4R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,74/114,7/11,6/7,1/1,N/A,N/A,Male,068,rifle
+EM069O1M,A,4,9,4,ND,3,1,8/23,2/3,2/3,N/A,4/5,2/3,Male,069,muzzleloader
+EM069O1R,A,5,6,5,ND,3,2,8/43,1/19,1/4,N/A,5/12,2/17,Male,069,rifle
+EM069O2R,A,3,3,3,no-apps,2,1,18/48,3/8,1/4,N/A,4/6,6/12,Male,069,rifle
+EM069O3R,A,3,3,3,3,2,1,12/24,1/1,3/5,1/1,2/2,5/9,Male,069,rifle
+EM069O4R,A,3,3,3,3,3,2,12/14,6/7,2/2,1/1,4/6,2/5,Male,069,rifle
+EM070O1A,A,0,Choice-2,0,2,N/A,N/A,82/82,1/304,1/1,1/1,N/A,N/A,Male,070,Archery
+EM070O1M,A,0,2,0,ND,N/A,N/A,47/47,2/17,2/2,N/A,N/A,N/A,Male,070,muzzleloader
+EM070O1R,A,0,2,0,2,N/A,N/A,76/82,12/33,12/12,1/1,N/A,N/A,Male,070,rifle
+EM070O4R,A,0,0,ND,ND,N/A,N/A,17/25,2/8,N/A,N/A,N/A,N/A,Male,070,rifle
+EM071O1A,A,0,0,0,0,N/A,N/A,236/237,331/526,17/17,8/9,N/A,N/A,Male,071,Archery
+EM071O1M,A,0,0,0,0,N/A,N/A,123/124,21/117,12/12,1/10,N/A,N/A,Male,071,muzzleloader
+EM071O1R,A,0,0,0,0,N/A,N/A,216/217,97/228,29/29,9/21,N/A,N/A,Male,071,rifle
+EM071O4R,A,0,0,0,2,N/A,N/A,32/48,8/22,5/8,1/1,N/A,N/A,Male,071,rifle
+EM071P1R,A,Choice-3,Choice-2,Choice-2,1,N/A,N/A,1/13,9/26,1/1,1/1,N/A,N/A,Male,071,rifle
+EM071P4R,A,Choice-2,Choice-2,Choice-2,no-apps,N/A,N/A,6/11,2/2,3/3,N/A,N/A,N/A,Male,071,rifle
+EM074O1A,A,Choice-2,Choice-2,0,0,N/A,N/A,27/182,34/321,4/4,2/2,N/A,N/A,Male,074,Archery
+EM074O1M,A,Choice-2,Choice-2,0,0,N/A,N/A,6/44,5/60,1/1,2/2,N/A,N/A,Male,074,muzzleloader
+EM074O1R,A,0,0,0,0,N/A,N/A,79/80,123/151,6/6,4/4,N/A,N/A,Male,074,rifle
+EM074O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,074,rifle
+EM074P1R,A,0,0,ND,no-apps,N/A,N/A,1/1,12/15,N/A,N/A,N/A,N/A,Male,074,rifle
+EM074P4R,A,0,0,ND,0,N/A,N/A,1/1,5/7,N/A,1/1,N/A,N/A,Male,074,rifle
+EM075O1A,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,12/144,15/241,2/11,4/4,N/A,N/A,Male,075,Archery
+EM075O1M,A,0,0,0,1,N/A,N/A,42/44,19/52,7/7,2/2,N/A,N/A,Male,075,muzzleloader
+EM075O1R,A,0,0,0,0,N/A,N/A,121/125,107/152,9/9,4/6,N/A,N/A,Male,075,rifle
+EM075O4R,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,15/56,4/19,2/8,1/2,N/A,N/A,Male,075,rifle
+EM075P4R,A,0,0,0,0,N/A,N/A,7/10,8/11,1/1,3/4,N/A,N/A,Male,075,rifle
+EM076E1R,A,21,28,ND,ND,0,0,9/9,5/5,N/A,N/A,2/5,2/4,Male,076,rifle
+EM076O1M,A,11,24,ND,ND,Leftover-Choice-1,Leftover-Choice-3,22/30,5/8,N/A,N/A,2/6,1/1,Male,076,muzzleloader
+EM076O1R,A,8,19,ND,ND,Leftover-Choice-3,Leftover-Choice-3,50/112,10/22,N/A,N/A,1/6,2/2,Male,076,rifle
+EM076O2R,A,7,17,ND,ND,Leftover-Choice-1,Leftover-Choice-2,15/25,1/4,N/A,N/A,1/6,4/4,Male,076,rifle
+EM076O3R,A,7,14,ND,ND,Leftover-Choice-1,Leftover-Choice-1,2/11,1/2,N/A,N/A,1/2,1/2,Male,076,rifle
+EM077O1A,A,Choice-2,Choice-2,Choice-2,Choice-2,N/A,N/A,101/246,157/706,6/13,3/13,N/A,N/A,Male,077,Archery
+EM077O1M,A,0,0,0,0,N/A,N/A,75/75,90/91,2/2,6/6,N/A,N/A,Male,077,muzzleloader
+EM077O1R,A,0,0,0,0,N/A,N/A,140/146,263/334,25/25,12/17,N/A,N/A,Male,077,rifle
+EM077O4R,A,0,1,0,ND,N/A,N/A,12/40,3/19,4/8,N/A,N/A,N/A,Male,077,rifle
+EM077P1R,A,Choice-2,Choice-2,0,0,N/A,N/A,3/6,2/12,1/1,3/3,N/A,N/A,Male,077,rifle
+EM077P4R,A,Choice-2,Choice-2,Choice-2,0,N/A,N/A,4/14,4/7,2/3,2/2,N/A,N/A,Male,077,rifle
+EM079O1M,A,0,2,ND,no-apps,0,0,7/8,2/2,N/A,N/A,1/4,1/2,Male,079,muzzleloader
+EM079O1R,A,Choice-2,Choice-2,Choice-2,Choice-2,Choice-2,Leftover-Choice-3,42/65,36/53,6/7,3/3,3/9,1/1,Male,079,rifle
+EM079O2R,A,Choice-2,Choice-2,0,0,Choice-2,Leftover-Choice-1,8/61,6/52,1/1,3/3,3/11,1/1,Male,079,rifle
+EM079O3R,A,0,0,0,no-apps,0,Leftover-Choice-2,45/57,7/10,7/8,N/A,7/15,1/1,Male,079,rifle
+EM080O1M,A,1,4,1,ND,N/A,N/A,48/73,1/31,2/2,N/A,N/A,N/A,Male,080,muzzleloader
+EM080O1R,A,0,2,0,2,N/A,N/A,46/310,67/122,6/51,1/1,N/A,N/A,Male,080,rifle
+EM080O4R,A,0,0,0,2,N/A,N/A,2/34,1/14,2/14,2/2,N/A,N/A,Male,080,rifle
+EM104O1M,A,Leftover,Leftover,Leftover,Leftover,0,Leftover-Choice-1,N/A,N/A,N/A,N/A,3/4,1/2,Male,104,muzzleloader
+EM104O1R,A,Leftover,Leftover,Leftover,Leftover,0,Leftover-Choice-2,N/A,N/A,N/A,N/A,3/4,2/2,Male,104,rifle
+EM104O2R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-1,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,104,rifle
+EM104O3R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-2,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,104,rifle
+EM104O4R,A,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,3/3,N/A,Male,104,rifle
+EM131O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,131,rifle
+EM133O4R,A,Choice-3,Choice-2,ND,no-apps,N/A,N/A,2/8,6/9,N/A,N/A,N/A,N/A,Male,133,rifle
+EM191O1R,A,Choice-2,0,2,no-apps,0,Leftover-Choice-1,17/28,8/8,1/1,N/A,5/5,2/2,Male,191,rifle
+EM191O2R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,191,rifle
+EM191O3R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-3,ND,N/A,N/A,N/A,N/A,3/3,N/A,Male,191,rifle
+EM191O4R,A,Leftover,Leftover,Leftover,Leftover,Leftover-Choice-2,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,191,rifle
+EM201O1M,A,26,32,ND,ND,1,0,3/3,1/3,N/A,N/A,1/1,1/3,Male,201,muzzleloader
+EM214O1R,A,Choice-3,Choice-3,0,Choice-2,N/A,N/A,4/19,2/13,1/1,2/3,N/A,N/A,Male,214,rifle
+EM214O4R,A,Choice-2,0,1,no-apps,N/A,N/A,1/2,5/5,1/1,N/A,N/A,N/A,Male,214,rifle
+EM231O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,231,rifle
+EM391O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Male,391,muzzleloader
+EM391O1R,A,Leftover,Leftover,Leftover,Leftover,ND,ND,N/A,N/A,N/A,N/A,N/A,N/A,Male,391,rifle
+EM391O2R,A,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,391,rifle
+EM391O3R,A,Choice-2,no-apps,0,no-apps,no-apps,no-apps,3/9,N/A,1/1,N/A,N/A,N/A,Male,391,rifle
+EM391O4R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Male,391,rifle
+EM444O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,444,rifle
+EM461O1M,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Male,461,muzzleloader
+EM461O1R,A,Leftover,Leftover,Leftover,Leftover,no-apps,no-apps,N/A,N/A,N/A,N/A,N/A,N/A,Male,461,rifle
+EM461O2R,A,Choice-2,no-apps,Choice-2,no-apps,no-apps,no-apps,4/10,N/A,1/1,N/A,N/A,N/A,Male,461,rifle
+EM461O3R,A,Leftover,Leftover,Leftover,Leftover,0,ND,N/A,N/A,N/A,N/A,1/1,N/A,Male,461,rifle
+EM461O4R,A,Leftover,Leftover,Leftover,Leftover,0,0,N/A,N/A,N/A,N/A,1/3,1/3,Male,461,rifle
+EM481O1M,A,0,1,ND,2,Leftover-Choice-3,ND,4/10,3/6,N/A,1/1,1/1,N/A,Male,481,muzzleloader
+EM481O1R,A,1,2,2,ND,0,Leftover-Choice-1,18/33,3/21,1/1,N/A,6/6,2/2,Male,481,rifle
+EM481O2R,A,0,1,0,1,Leftover-Choice-2,ND,18/50,16/20,2/9,1/1,3/5,N/A,Male,481,rifle
+EM481O3R,A,0,0,0,no-apps,Leftover-Choice-3,ND,21/21,6/21,2/2,N/A,3/3,N/A,Male,481,rifle
+EM481O4R,A,Choice-2,0,ND,1,Choice-2,Choice-2,3/20,2/2,N/A,1/1,1/2,1/2,Male,481,rifle
+EM500O1M,A,2,6,3,ND,Leftover-Choice-1,Leftover-Choice-3,4/13,6/11,1/1,N/A,1/1,4/4,Male,500,muzzleloader
+EM500O1R,A,3,6,3,ND,0,Leftover-Choice-2,22/64,11/13,1/4,N/A,6/10,3/4,Male,500,rifle
+EM500O2R,A,0,1,0,ND,Leftover-Choice-2,ND,4/22,2/12,2/6,N/A,2/2,N/A,Male,500,rifle
+EM500O3R,A,0,0,0,no-apps,Leftover-Choice-3,Leftover-Choice-3,13/23,3/4,1/2,N/A,1/3,2/3,Male,500,rifle
+EM500O4R,A,Choice-2,0,ND,no-apps,ND,ND,1/7,1/1,N/A,N/A,N/A,N/A,Male,500,rifle
+EM501O1M,A,4,14,ND,ND,Leftover-Choice-1,Leftover-Choice-2,1/9,2/2,N/A,N/A,1/4,1/1,Male,501,muzzleloader
+EM501O1R,A,6,9,6,ND,0,0,11/11,1/4,1/1,N/A,1/5,2/5,Male,501,rifle
+EM501O2R,A,3,4,ND,no-apps,Choice-2,Leftover-Choice-1,11/24,4/5,N/A,N/A,1/6,2/2,Male,501,rifle
+EM501O3R,A,2,4,ND,5,Leftover-Choice-1,Leftover-Choice-3,2/10,1/1,N/A,1/1,1/1,1/1,Male,501,rifle
+EM501O4R,A,1,4,3,ND,Leftover-Choice-2,Leftover-Choice-3,3/6,2/3,1/1,N/A,2/2,1/1,Male,501,rifle
+EM511O1R,A,Choice-2,0,0,no-apps,N/A,N/A,5/53,4/4,6/6,N/A,N/A,N/A,Male,511,rifle
+EM511O4R,A,Leftover,Leftover,Leftover,Leftover,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Male,511,rifle
+EM551O1M,A,1,5,ND,ND,N/A,N/A,6/24,4/7,N/A,N/A,N/A,N/A,Male,551,muzzleloader
+EM551O1R,A,1,3,1,3,N/A,N/A,23/26,7/15,1/1,1/1,N/A,N/A,Male,551,rifle
+EM551O4R,A,2,ND,2,2,N/A,N/A,8/8,N/A,1/1,1/1,N/A,N/A,Male,551,rifle
+EM561O1M,A,0,0,0,no-apps,0,no-apps,14/21,3/6,1/1,N/A,1/1,N/A,Male,561,muzzleloader
+EM561O1R,A,1,3,2,ND,Leftover-Choice-1,ND,12/23,4/5,2/2,N/A,1/1,N/A,Male,561,rifle
+EM561O2R,A,1,1,ND,1,Leftover-Choice-3,ND,15/18,4/5,N/A,2/2,1/1,N/A,Male,561,rifle
+EM561O3R,A,Choice-2,Choice-2,0,0,Leftover-Choice-3,ND,6/28,4/6,1/1,1/1,1/1,N/A,Male,561,rifle
+EM561O4R,A,Choice-3,Choice-3,0,ND,no-apps,no-apps,1/6,2/3,1/1,N/A,N/A,N/A,Male,561,rifle
+EM851O1M,A,4,14,ND,ND,N/A,N/A,2/5,1/2,N/A,N/A,N/A,N/A,Male,851,muzzleloader
+EM851O1R,A,19,ND,ND,ND,N/A,N/A,1/1,N/A,N/A,N/A,N/A,N/A,Male,851,rifle
+EM851O2R,A,15,19,no-apps,no-apps,N/A,N/A,1/1,1/2,N/A,N/A,N/A,N/A,Male,851,rifle
+EM851O3R,A,19,24,ND,no-apps,N/A,N/A,2/3,1/1,N/A,N/A,N/A,N/A,Male,851,rifle
+EM851O4R,A,21,29,ND,ND,N/A,N/A,2/2,1/1,N/A,N/A,N/A,N/A,Male,851,rifle
+EP99999P,A,ND,ND,ND,ND,ND,ND,N/A,N/A,N/A,N/A,N/A,N/A,Preference Point,999,NA
