@@ -2,6 +2,7 @@
 Functions to cache and retrieve geospatial and hunting data,
 as well as configure the Streamlit sidebar for multi page use.
 """
+
 import os
 from pathlib import Path
 import pandas as pd
@@ -44,13 +45,25 @@ def get_hunting_data() -> pd.DataFrame:
 
     asset_directory = file_directory.parent / "assets" / "data"
 
-    df = pd.read_csv(os.path.join(asset_directory, "hunting_data.csv"))
+    hunt_df = pd.read_csv(os.path.join(asset_directory, "hunting_data.csv"))
+
+    otc_df = pd.read_csv(os.path.join(asset_directory, "otc.csv"))
+
+    df = hunt_df.merge(otc_df.rename(columns={"GMUID": "unit"}), on="unit", how="left")
+
+    df[
+        ["private_either_sex", "private_female", "public_either_sex", "public_female"]
+    ] = df[
+        ["private_either_sex", "private_female", "public_either_sex", "public_female"]
+    ].fillna(
+        False
+    )
 
     df.columns = [col.replace("_", " ").title() for col in df.columns]
 
-    df[["Percent Success", "Total Hunters"]] = df[
-        ["Percent Success", "Total Hunters"]
-    ].fillna(0)
+    # df[["Percent Success", "Total Hunters"]] = df[
+    #     ["Percent Success", "Total Hunters"]
+    # ].fillna(0)
 
     return df
 
