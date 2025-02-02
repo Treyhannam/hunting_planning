@@ -22,9 +22,9 @@ def plot_annual_data(
     )
     combined_df.reset_index(names="location", inplace=True)
 
-    combined_df[["Percent Success", "Total Hunters"]] = combined_df[
-        ["Percent Success", "Total Hunters"]
-    ].fillna(0)
+    # combined_df[["Percent Success", "Total Hunters"]] = combined_df[
+    #     ["Percent Success", "Total Hunters"]
+    # ].fillna(0)
 
     fig = px.choropleth_mapbox(
         combined_df,
@@ -39,6 +39,10 @@ def plot_annual_data(
             "County": True,
             "Elk DAU": True,
             "Total Hunters": True,
+            "Private Either Sex": True,
+            "Private Female": True,
+            "Public Either Sex": True,
+            "Public Female": True,
         },
         mapbox_style="carto-positron",
         center={"lat": 38.9, "lon": -105.7821},
