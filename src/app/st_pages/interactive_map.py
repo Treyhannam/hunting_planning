@@ -42,19 +42,18 @@ with st.container():
         key="maplot_year_selectbox",
     )
 
-    otc_options = [
+    otc_col_options = [
         "Private Either Sex",
         "Private Female",
         "Public Either Sex",
         "Public Female",
-        "No Over the Counter",
+        "No Over The Counter",
     ]
 
-    otc = col1.multiselect(
+    otc_cols_selected = col1.multiselect(
         "Choose to Display type of OTC Units or non OTC Units",
-        options=otc_options,
-        default=otc_options,
-        placeholder="Choosing none is the same as choosing all",
+        options=otc_col_options,
+        default=otc_col_options,
     )
 
     opacity_str = col2.selectbox(
@@ -74,13 +73,7 @@ with st.container():
         (hunter_df.Year == year)
         & (hunter_df[metric] >= metric_range[0])
         & (hunter_df[metric] <= metric_range[1])
-        & (
-            (hunter_df["Private Either Sex"] == ("Private Either Sex" in otc))
-            & (hunter_df["Private Female"] == ("Private Female" in otc))
-            & (hunter_df["Public Either Sex"] == ("Public Either Sex" in otc))
-            & (hunter_df["Public Female"] == ("Public Female" in otc))
-            | (hunter_df["No Over The Counter"] == ("No Over The Counter" in otc))
-        )
+        & (hunter_df[otc_cols_selected].any(axis=1))
     ].copy()
 
     st.session_state.fig = plot_annual_data(
